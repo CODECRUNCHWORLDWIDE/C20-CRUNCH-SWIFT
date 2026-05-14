@@ -1,0 +1,36 @@
+C20 · Crunch Swift — iOS & Apple Platform Engineering
+Copyright (C) 2026 Code Crunch Club and contributors.
+
+This curriculum and all materials in the `C20-CRUNCH-SWIFT/` directory are
+licensed under the GNU General Public License, version 3 (GPL-3.0-or-later).
+
+You may copy, modify, and redistribute this work under the terms of the GPL,
+provided that derivative works are licensed under the same terms and that
+this notice is preserved.
+
+The full text of the GPL-3.0 license is published at:
+
+    https://www.gnu.org/licenses/gpl-3.0.txt
+
+A verbatim local copy is maintained at the academy root under
+`LICENSE-GPL-3.0.txt`. In the event of any conflict between this pointer
+file and the full GPL-3.0 text, the full text governs.
+
+This license applies to:
+
+  - All Markdown documents in this directory and its subdirectories
+    (`README.md`, `SYLLABUS.md`, `CHARTER.md`, weekly READMEs, exercises,
+    challenges, lecture notes, quizzes, homework, mini-project specs).
+  - All source code samples, starter code, and reference solutions shipped
+    inside this track.
+  - All diagrams and images authored for this track, unless an individual
+    file declares a more permissive license.
+
+Third-party content embedded or referenced (Apple framework names, Swift
+Evolution proposal numbers, open-source SwiftPM dependencies, etc.) remains
+the property of its respective copyright holders and is referenced under
+fair-use / nominative-use conventions.
+
+For contribution terms, see `../CONTRIBUTING.md` at the github-org root.
+
+SPDX-License-Identifier: GPL-3.0-or-later
