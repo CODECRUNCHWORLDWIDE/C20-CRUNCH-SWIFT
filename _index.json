@@ -1,1105 +1,540 @@
 {
   "repo": "C20-CRUNCH-SWIFT",
+  "updated": "2026-06-11T14:22:56-05:00",
   "files": [
-    {
-      "path": "00-overview.md",
-      "title": "C20 \u00b7 Crunch Swift \u2014 iOS & Apple Platform Engineering"
-    },
-    {
-      "path": "CODE_OF_CONDUCT.md",
-      "title": "Contributor Covenant Code of Conduct"
-    },
-    {
-      "path": "CONTRIBUTING.md",
-      "title": "Contributing to Crunch Swift"
-    },
-    {
-      "path": "community/CHARTER.md",
-      "title": "C20 \u00b7 Crunch Swift \u2014 Charter"
-    },
-    {
-      "path": "curriculum/SYLLABUS.md",
-      "title": "C20 \u00b7 Crunch Swift \u2014 Syllabus"
-    },
-    {
-      "path": "curriculum/week-01-swift-the-language/00-overview.md",
-      "title": "Week 1 \u2014 Swift the Language"
-    },
-    {
-      "path": "curriculum/week-01-swift-the-language/01-resources.md",
-      "title": "Week 1 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-01-swift-the-language/02-lecture-notes/01-swift-for-the-typed-oop-engineer.md",
-      "title": "Lecture 1 \u2014 Swift for the Typed-OOP Engineer: What Maps and What Breaks"
-    },
-    {
-      "path": "curriculum/week-01-swift-the-language/02-lecture-notes/02-swiftpm-the-repl-and-swift-testing.md",
-      "title": "Lecture 2 \u2014 SwiftPM Executables, the REPL, and the Swift Testing Target"
-    },
-    {
-      "path": "curriculum/week-01-swift-the-language/03-exercises/00-overview.md",
-      "title": "Week 1 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-01-swift-the-language/03-exercises/exercise-01-install-and-prove-value-semantics.md",
-      "title": "Exercise 1 \u2014 Install the Toolchain and Prove Value Semantics"
-    },
-    {
-      "path": "curriculum/week-01-swift-the-language/04-challenges/00-overview.md",
-      "title": "Week 1 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-01-swift-the-language/04-challenges/challenge-01-wordfreq-multi-file.md",
-      "title": "Challenge 1 \u2014 Multi-file `wordfreq` with `--min-count`"
-    },
-    {
-      "path": "curriculum/week-01-swift-the-language/05-quiz.md",
-      "title": "Week 1 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-01-swift-the-language/06-homework.md",
-      "title": "Week 1 Homework"
-    },
-    {
-      "path": "curriculum/week-01-swift-the-language/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 `wordfreq` CLI"
-    },
-    {
-      "path": "curriculum/week-02-protocols-generics-error-handling/00-overview.md",
-      "title": "Week 2 \u2014 Protocols, Generics, and Error Handling"
-    },
-    {
-      "path": "curriculum/week-02-protocols-generics-error-handling/01-resources.md",
-      "title": "Week 2 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-02-protocols-generics-error-handling/02-lecture-notes/01-protocols-generics-not-java.md",
-      "title": "Lecture 1 \u2014 Protocols and Generics: Why Swift Is Not Java With Cleaner Syntax"
-    },
-    {
-      "path": "curriculum/week-02-protocols-generics-error-handling/02-lecture-notes/02-some-vs-any-and-the-error-model.md",
-      "title": "Lecture 2 \u2014 `some` vs `any`, Type Erasure, and Swift's Error Model"
-    },
-    {
-      "path": "curriculum/week-02-protocols-generics-error-handling/03-exercises/00-overview.md",
-      "title": "Week 2 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-02-protocols-generics-error-handling/03-exercises/exercise-01-associatedtype-and-generics.md",
-      "title": "Exercise 1 \u2014 A protocol with an `associatedtype`, and a generic function over it"
-    },
-    {
-      "path": "curriculum/week-02-protocols-generics-error-handling/04-challenges/00-overview.md",
-      "title": "Week 2 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-02-protocols-generics-error-handling/04-challenges/challenge-01-pluggable-eviction-policy.md",
-      "title": "Challenge 1 \u2014 Pluggable Eviction Policy via a Protocol"
-    },
-    {
-      "path": "curriculum/week-02-protocols-generics-error-handling/05-quiz.md",
-      "title": "Week 2 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-02-protocols-generics-error-handling/06-homework.md",
-      "title": "Week 2 Homework"
-    },
-    {
-      "path": "curriculum/week-02-protocols-generics-error-handling/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 A Generic `Cache<Key, Value>` with TTL Eviction and a Pluggable Store"
-    },
-    {
-      "path": "curriculum/week-03-swift-concurrency-async-await/00-overview.md",
-      "title": "Week 3 \u2014 Swift Concurrency I: async / await and Structured Concurrency"
-    },
-    {
-      "path": "curriculum/week-03-swift-concurrency-async-await/01-resources.md",
-      "title": "Week 3 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-03-swift-concurrency-async-await/02-lecture-notes/01-structured-concurrency-task-trees-and-cancellation.md",
-      "title": "Lecture 1 \u2014 The Structured Concurrency Model: Task Trees and Cancellation"
-    },
-    {
-      "path": "curriculum/week-03-swift-concurrency-async-await/02-lecture-notes/02-task-vs-detached-and-why-dispatchqueue-is-the-past.md",
-      "title": "Lecture 2 \u2014 `Task { }` vs `Task.detached`, and Why `DispatchQueue` Is the Past"
-    },
-    {
-      "path": "curriculum/week-03-swift-concurrency-async-await/03-exercises/00-overview.md",
-      "title": "Week 3 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-03-swift-concurrency-async-await/03-exercises/exercise-01-async-let-vs-taskgroup.md",
-      "title": "Exercise 1 \u2014 `async let` vs `TaskGroup`"
-    },
-    {
-      "path": "curriculum/week-03-swift-concurrency-async-await/04-challenges/00-overview.md",
-      "title": "Week 3 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-03-swift-concurrency-async-await/04-challenges/challenge-01-retry-with-bounded-concurrency.md",
-      "title": "Challenge 1 \u2014 `--retry` with Bounded Concurrency That Drains Cleanly on Ctrl-C"
-    },
-    {
-      "path": "curriculum/week-03-swift-concurrency-async-await/05-quiz.md",
-      "title": "Week 3 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-03-swift-concurrency-async-await/06-homework.md",
-      "title": "Week 3 Homework"
-    },
-    {
-      "path": "curriculum/week-03-swift-concurrency-async-await/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 Parallel Link-Checker CLI"
-    },
-    {
-      "path": "curriculum/week-04-actors-sendable-strict-concurrency/00-overview.md",
-      "title": "Week 4 \u2014 Actors, Sendable, and Strict Concurrency"
-    },
-    {
-      "path": "curriculum/week-04-actors-sendable-strict-concurrency/01-resources.md",
-      "title": "Week 4 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-04-actors-sendable-strict-concurrency/02-lecture-notes/01-actors-isolation-and-hops.md",
-      "title": "Lecture 1 \u2014 Actors, Isolation, and Hops"
-    },
-    {
-      "path": "curriculum/week-04-actors-sendable-strict-concurrency/02-lecture-notes/02-strict-concurrency-and-a-worked-migration.md",
-      "title": "Lecture 2 \u2014 Strict Concurrency and a Worked Migration"
-    },
-    {
-      "path": "curriculum/week-04-actors-sendable-strict-concurrency/03-exercises/00-overview.md",
-      "title": "Week 4 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-04-actors-sendable-strict-concurrency/03-exercises/exercise-01-class-to-actor.md",
-      "title": "Exercise 1 \u2014 From Class to Actor"
-    },
-    {
-      "path": "curriculum/week-04-actors-sendable-strict-concurrency/04-challenges/00-overview.md",
-      "title": "Week 4 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-04-actors-sendable-strict-concurrency/04-challenges/challenge-01-remove-the-escape-hatch.md",
-      "title": "Challenge 1 \u2014 Remove the Escape Hatch"
-    },
-    {
-      "path": "curriculum/week-04-actors-sendable-strict-concurrency/05-quiz.md",
-      "title": "Week 4 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-04-actors-sendable-strict-concurrency/06-homework.md",
-      "title": "Week 4 Homework"
-    },
-    {
-      "path": "curriculum/week-04-actors-sendable-strict-concurrency/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 ActorKV: migrate a callback key-value store to an actor under strict concurrency"
-    },
-    {
-      "path": "curriculum/week-05-vapor-server-side-swift/00-overview.md",
-      "title": "Week 5 \u2014 Vapor: Server-Side Swift Fundamentals"
-    },
-    {
-      "path": "curriculum/week-05-vapor-server-side-swift/01-resources.md",
-      "title": "Week 5 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-05-vapor-server-side-swift/02-lecture-notes/01-why-vapor-the-shape-of-a-production-swift-http-service.md",
-      "title": "Lecture 1 \u2014 Why Vapor: The Shape of a Production Swift HTTP Service"
-    },
-    {
-      "path": "curriculum/week-05-vapor-server-side-swift/02-lecture-notes/02-vapor-vs-hummingbird-fastapi-express-rails.md",
-      "title": "Lecture 2 \u2014 Vapor vs Hummingbird, FastAPI, Express, and Rails"
-    },
-    {
-      "path": "curriculum/week-05-vapor-server-side-swift/03-exercises/00-overview.md",
-      "title": "Week 5 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-05-vapor-server-side-swift/03-exercises/exercise-01-fluent-model-migration-crud.md",
-      "title": "Exercise 1 \u2014 Fluent Model, Migration, and CRUD Routes"
-    },
-    {
-      "path": "curriculum/week-05-vapor-server-side-swift/04-challenges/00-overview.md",
-      "title": "Week 5 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-05-vapor-server-side-swift/04-challenges/challenge-01-problem-json-error-handling.md",
-      "title": "Challenge 1 \u2014 RFC 9457 Problem-JSON Errors Across Every Notes Endpoint"
-    },
-    {
-      "path": "curriculum/week-05-vapor-server-side-swift/05-quiz.md",
-      "title": "Week 5 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-05-vapor-server-side-swift/06-homework.md",
-      "title": "Week 5 Homework"
-    },
-    {
-      "path": "curriculum/week-05-vapor-server-side-swift/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 `notes-api`: a Dockerized REST service backed by Postgres"
-    },
-    {
-      "path": "curriculum/week-06-shared-types-swift-nio-integration/00-overview.md",
-      "title": "Week 6 \u2014 Shared Types, swift-nio Basics, Phase I Integration"
-    },
-    {
-      "path": "curriculum/week-06-shared-types-swift-nio-integration/01-resources.md",
-      "title": "Week 6 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-06-shared-types-swift-nio-integration/02-lecture-notes/01-shared-codable-types.md",
-      "title": "Lecture 1 \u2014 Shared Codable Types: The Move That Pays for the Rest of the Track"
-    },
-    {
-      "path": "curriculum/week-06-shared-types-swift-nio-integration/02-lecture-notes/02-swift-nio-and-swift-collections.md",
-      "title": "Lecture 2 \u2014 swift-nio Event Loops and swift-collections at a Glance"
-    },
-    {
-      "path": "curriculum/week-06-shared-types-swift-nio-integration/03-exercises/00-overview.md",
-      "title": "Week 6 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-06-shared-types-swift-nio-integration/03-exercises/exercise-01-extract-notescore.md",
-      "title": "Exercise 1 \u2014 Extract `NotesCore`"
-    },
-    {
-      "path": "curriculum/week-06-shared-types-swift-nio-integration/04-challenges/00-overview.md",
-      "title": "Week 6 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-06-shared-types-swift-nio-integration/04-challenges/challenge-01-coverage-above-70.md",
-      "title": "Challenge 1 \u2014 Raise `NotesCore` Swift Testing Coverage Above 70%"
-    },
-    {
-      "path": "curriculum/week-06-shared-types-swift-nio-integration/05-quiz.md",
-      "title": "Week 6 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-06-shared-types-swift-nio-integration/06-homework.md",
-      "title": "Week 6 Homework"
-    },
-    {
-      "path": "curriculum/week-06-shared-types-swift-nio-integration/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 Phase I Integration: `NotesCore` + `notes-cli`"
-    },
-    {
-      "path": "curriculum/week-07-xcode-swiftui-mental-model/00-overview.md",
-      "title": "Week 7 \u2014 Xcode, the SwiftUI Mental Model, and Your First App"
-    },
-    {
-      "path": "curriculum/week-07-xcode-swiftui-mental-model/01-resources.md",
-      "title": "Week 7 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-07-xcode-swiftui-mental-model/02-lecture-notes/01-swiftui-is-a-function-of-state.md",
-      "title": "Lecture 01 \u2014 SwiftUI Is a Function from State to View, with Diffing"
-    },
-    {
-      "path": "curriculum/week-07-xcode-swiftui-mental-model/02-lecture-notes/02-viewbuilder-equatableview-layout-modifiers.md",
-      "title": "Lecture 02 \u2014 How `body` Is Invoked: `@ViewBuilder`, `EquatableView`, `Layout`, and the Modifier-Order Rule"
-    },
-    {
-      "path": "curriculum/week-07-xcode-swiftui-mental-model/03-exercises/00-overview.md",
-      "title": "Week 7 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-07-xcode-swiftui-mental-model/03-exercises/exercise-01-layout-and-modifier-order.md",
-      "title": "Exercise 1 \u2014 Layout and the Modifier-Order Rule"
-    },
-    {
-      "path": "curriculum/week-07-xcode-swiftui-mental-model/04-challenges/00-overview.md",
-      "title": "Week 7 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-07-xcode-swiftui-mental-model/04-challenges/challenge-01-dynamic-type-card.md",
-      "title": "Challenge 1 \u2014 A Card That Survives the Largest Dynamic Type"
-    },
-    {
-      "path": "curriculum/week-07-xcode-swiftui-mental-model/05-quiz.md",
-      "title": "Week 7 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-07-xcode-swiftui-mental-model/06-homework.md",
-      "title": "Week 7 Homework"
-    },
-    {
-      "path": "curriculum/week-07-xcode-swiftui-mental-model/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 \"Hello, Notes\": your first SwiftUI app"
-    },
-    {
-      "path": "curriculum/week-08-state-observable-environment-bindable/00-overview.md",
-      "title": "Week 8 \u2014 State: `@State`, `@Observable`, `@Environment`, `@Bindable`"
-    },
-    {
-      "path": "curriculum/week-08-state-observable-environment-bindable/01-resources.md",
-      "title": "Week 8 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-08-state-observable-environment-bindable/02-lecture-notes/01-state-ownership-who-owns-what.md",
-      "title": "Lecture 1 \u2014 State Ownership in SwiftUI: Who Owns What, and the Bug Class of Getting It Wrong"
-    },
-    {
-      "path": "curriculum/week-08-state-observable-environment-bindable/02-lecture-notes/02-the-re-render-storm-walkthrough.md",
-      "title": "Lecture 2 \u2014 The SwiftUI Re-Render Storm: A Line-by-Line Walkthrough"
-    },
-    {
-      "path": "curriculum/week-08-state-observable-environment-bindable/03-exercises/00-overview.md",
-      "title": "Week 8 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-08-state-observable-environment-bindable/03-exercises/exercise-01-environment-injection-no-prop-drilling.md",
-      "title": "Exercise 1 \u2014 Environment Injection, No Prop-Drilling"
-    },
-    {
-      "path": "curriculum/week-08-state-observable-environment-bindable/04-challenges/00-overview.md",
-      "title": "Week 8 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-08-state-observable-environment-bindable/04-challenges/challenge-01-edit-in-sheet-cancel-discards-save-commits.md",
-      "title": "Challenge 1 \u2014 Edit in a Sheet: Cancel Discards, Save Commits, List Updates Exactly Once"
-    },
-    {
-      "path": "curriculum/week-08-state-observable-environment-bindable/05-quiz.md",
-      "title": "Week 8 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-08-state-observable-environment-bindable/06-homework.md",
-      "title": "Week 8 Homework"
-    },
-    {
-      "path": "curriculum/week-08-state-observable-environment-bindable/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 Hello, Notes: CRUD Edition"
-    },
-    {
-      "path": "curriculum/week-09-navigation-deep-links-scenes/00-overview.md",
-      "title": "Week 9 \u2014 Navigation, Deep Links, and Scenes"
-    },
-    {
-      "path": "curriculum/week-09-navigation-deep-links-scenes/01-resources.md",
-      "title": "Week 9 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-09-navigation-deep-links-scenes/02-lecture-notes/01-navigation-the-post-ios16-model.md",
-      "title": "Lecture 1 \u2014 Navigation in SwiftUI: the post-iOS-16 model"
-    },
-    {
-      "path": "curriculum/week-09-navigation-deep-links-scenes/02-lecture-notes/02-why-value-typed-navigation-enables-deep-links.md",
-      "title": "Lecture 2 \u2014 Why value-typed navigation enables deep links by construction"
-    },
-    {
-      "path": "curriculum/week-09-navigation-deep-links-scenes/03-exercises/00-overview.md",
-      "title": "Week 9 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-09-navigation-deep-links-scenes/03-exercises/exercise-01-value-typed-stack.md",
-      "title": "Exercise 1 \u2014 A value-typed `NavigationStack`"
-    },
-    {
-      "path": "curriculum/week-09-navigation-deep-links-scenes/04-challenges/00-overview.md",
-      "title": "Week 9 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-09-navigation-deep-links-scenes/04-challenges/challenge-01-universal-links.md",
-      "title": "Challenge 1 \u2014 Universal links, end to end"
-    },
-    {
-      "path": "curriculum/week-09-navigation-deep-links-scenes/05-quiz.md",
-      "title": "Week 9 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-09-navigation-deep-links-scenes/06-homework.md",
-      "title": "Week 9 Homework"
-    },
-    {
-      "path": "curriculum/week-09-navigation-deep-links-scenes/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 \"Hello, Notes\" grows a navigation layer"
-    },
-    {
-      "path": "curriculum/week-10-swiftdata-persistence/00-overview.md",
-      "title": "Week 10 \u2014 SwiftData: the modern persistence story"
-    },
-    {
-      "path": "curriculum/week-10-swiftdata-persistence/01-resources.md",
-      "title": "Week 10 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-10-swiftdata-persistence/02-lecture-notes/01-swiftdata-and-the-core-data-lineage.md",
-      "title": "Lecture 1 \u2014 SwiftData and the Core Data lineage: what it solves, and what it still hides"
-    },
-    {
-      "path": "curriculum/week-10-swiftdata-persistence/02-lecture-notes/02-coexistence-migrations-and-footguns.md",
-      "title": "Lecture 2 \u2014 Co-existence, migrations, and the footguns that ship to users"
-    },
-    {
-      "path": "curriculum/week-10-swiftdata-persistence/03-exercises/00-overview.md",
-      "title": "Week 10 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-10-swiftdata-persistence/03-exercises/exercise-01-model-container-survives-relaunch.md",
-      "title": "Exercise 1 \u2014 A ModelContainer that survives relaunch"
-    },
-    {
-      "path": "curriculum/week-10-swiftdata-persistence/04-challenges/00-overview.md",
-      "title": "Week 10 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-10-swiftdata-persistence/04-challenges/challenge-01-footgun-then-refactor.md",
-      "title": "Challenge 1 \u2014 Plant a SwiftData footgun, then refactor it (with numbers)"
-    },
-    {
-      "path": "curriculum/week-10-swiftdata-persistence/05-quiz.md",
-      "title": "Week 10 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-10-swiftdata-persistence/06-homework.md",
-      "title": "Week 10 Homework"
-    },
-    {
-      "path": "curriculum/week-10-swiftdata-persistence/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 Hello, Notes: SwiftData edition"
-    },
-    {
-      "path": "curriculum/week-11-app-architecture-mvvm-tca/00-overview.md",
-      "title": "Week 11 \u2014 App architecture: MVVM, TCA, and the case against VIPER"
-    },
-    {
-      "path": "curriculum/week-11-app-architecture-mvvm-tca/01-resources.md",
-      "title": "Week 11 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-11-app-architecture-mvvm-tca/02-lecture-notes/01-the-architecture-spectrum-and-mvvm.md",
-      "title": "Lecture 1 \u2014 The architecture spectrum, and MVVM as a discipline"
-    },
-    {
-      "path": "curriculum/week-11-app-architecture-mvvm-tca/02-lecture-notes/02-tca-and-the-case-against-viper.md",
-      "title": "Lecture 2 \u2014 The Composable Architecture, the case against VIPER, and the ADR"
-    },
-    {
-      "path": "curriculum/week-11-app-architecture-mvvm-tca/03-exercises/00-overview.md",
-      "title": "Week 11 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-11-app-architecture-mvvm-tca/03-exercises/exercise-01-extract-a-view-model.md",
-      "title": "Exercise 1 \u2014 Extract a testable view model"
-    },
-    {
-      "path": "curriculum/week-11-app-architecture-mvvm-tca/04-challenges/00-overview.md",
-      "title": "Week 11 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-11-app-architecture-mvvm-tca/04-challenges/challenge-01-same-feature-three-ways.md",
-      "title": "Challenge 1 \u2014 The same feature, three ways (with numbers and an ADR)"
-    },
-    {
-      "path": "curriculum/week-11-app-architecture-mvvm-tca/05-quiz.md",
-      "title": "Week 11 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-11-app-architecture-mvvm-tca/06-homework.md",
-      "title": "Week 11 Homework"
-    },
-    {
-      "path": "curriculum/week-11-app-architecture-mvvm-tca/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 Search-and-filter, two ways (and the ADR that decides)"
-    },
-    {
-      "path": "curriculum/week-12-combine-async-asyncsequence/00-overview.md",
-      "title": "Week 12 \u2014 Combine, async/await, and AsyncSequence"
-    },
-    {
-      "path": "curriculum/week-12-combine-async-asyncsequence/01-resources.md",
-      "title": "Week 12 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-12-combine-async-asyncsequence/02-lecture-notes/01-combine-fundamentals-and-operators.md",
-      "title": "Lecture 1 \u2014 Combine fundamentals, operators, and where it still earns its keep"
-    },
-    {
-      "path": "curriculum/week-12-combine-async-asyncsequence/02-lecture-notes/02-asyncsequence-bridging-and-the-matrix.md",
-      "title": "Lecture 2 \u2014 AsyncSequence, AsyncStream, the bridge, and the decision matrix"
-    },
-    {
-      "path": "curriculum/week-12-combine-async-asyncsequence/03-exercises/00-overview.md",
-      "title": "Week 12 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-12-combine-async-asyncsequence/03-exercises/exercise-01-combine-pipeline.md",
-      "title": "Exercise 1 \u2014 A Combine pipeline you can read in your sleep"
-    },
-    {
-      "path": "curriculum/week-12-combine-async-asyncsequence/04-challenges/00-overview.md",
-      "title": "Week 12 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-12-combine-async-asyncsequence/04-challenges/challenge-01-debounce-two-ways-measured.md",
-      "title": "Challenge 1 \u2014 Debounce two ways, measured (and the decision note)"
-    },
-    {
-      "path": "curriculum/week-12-combine-async-asyncsequence/05-quiz.md",
-      "title": "Week 12 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-12-combine-async-asyncsequence/06-homework.md",
-      "title": "Week 12 Homework"
-    },
-    {
-      "path": "curriculum/week-12-combine-async-asyncsequence/07-mini-project/00-overview.md",
-      "title": "Phase II Integration Project \u2014 \"Notes v1\""
-    },
-    {
-      "path": "curriculum/week-13-urlsession-networking-stack/00-overview.md",
-      "title": "Week 13 \u2014 URLSession and the networking stack"
-    },
-    {
-      "path": "curriculum/week-13-urlsession-networking-stack/01-resources.md",
-      "title": "Week 13 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-13-urlsession-networking-stack/02-lecture-notes/01-from-one-line-to-a-typed-client.md",
-      "title": "Lecture 1 \u2014 From one line to a typed, testable client"
-    },
-    {
-      "path": "curriculum/week-13-urlsession-networking-stack/02-lecture-notes/02-resilience-retries-signing-and-offline-first.md",
-      "title": "Lecture 2 \u2014 Resilience: retries, signing, logging, and offline-first"
-    },
-    {
-      "path": "curriculum/week-13-urlsession-networking-stack/03-exercises/00-overview.md",
-      "title": "Week 13 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-13-urlsession-networking-stack/03-exercises/exercise-01-typed-endpoint-client.md",
-      "title": "Exercise 1 \u2014 A typed `Endpoint` client"
-    },
-    {
-      "path": "curriculum/week-13-urlsession-networking-stack/04-challenges/00-overview.md",
-      "title": "Week 13 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-13-urlsession-networking-stack/04-challenges/challenge-01-offline-write-replay.md",
-      "title": "Challenge 1 \u2014 Offline-first write-replay (and prove it survives a drop)"
-    },
-    {
-      "path": "curriculum/week-13-urlsession-networking-stack/05-quiz.md",
-      "title": "Week 13 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-13-urlsession-networking-stack/06-homework.md",
-      "title": "Week 13 Homework"
-    },
-    {
-      "path": "curriculum/week-13-urlsession-networking-stack/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 Wire \"Notes v1\" to the Vapor backend with a resilient `NotesClient`"
-    },
-    {
-      "path": "curriculum/week-14-persistence-files-keychain-cloudkit/00-overview.md",
-      "title": "Week 14 \u2014 Persistence II: Files, Keychain, SwiftData + CloudKit"
-    },
-    {
-      "path": "curriculum/week-14-persistence-files-keychain-cloudkit/01-resources.md",
-      "title": "Week 14 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-14-persistence-files-keychain-cloudkit/02-lecture-notes/01-files-and-the-keychain.md",
-      "title": "Lecture 1 \u2014 Where to put each byte: the file system and the Keychain"
-    },
-    {
-      "path": "curriculum/week-14-persistence-files-keychain-cloudkit/02-lecture-notes/02-swiftdata-cloudkit-and-conflict-resolution.md",
-      "title": "Lecture 2 \u2014 SwiftData + CloudKit, the schema constraints, and the conflict you must resolve"
-    },
-    {
-      "path": "curriculum/week-14-persistence-files-keychain-cloudkit/03-exercises/00-overview.md",
-      "title": "Week 14 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-14-persistence-files-keychain-cloudkit/03-exercises/exercise-01-sandbox-and-atomic-writes.md",
-      "title": "Exercise 1 \u2014 The sandbox and atomic writes"
-    },
-    {
-      "path": "curriculum/week-14-persistence-files-keychain-cloudkit/04-challenges/00-overview.md",
-      "title": "Week 14 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-14-persistence-files-keychain-cloudkit/04-challenges/challenge-01-token-leak-then-lockdown.md",
-      "title": "Challenge 1 \u2014 Plant a token leak, then lock it down (with the threat model)"
-    },
-    {
-      "path": "curriculum/week-14-persistence-files-keychain-cloudkit/05-quiz.md",
-      "title": "Week 14 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-14-persistence-files-keychain-cloudkit/06-homework.md",
-      "title": "Week 14 Homework"
-    },
-    {
-      "path": "curriculum/week-14-persistence-files-keychain-cloudkit/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 Notes v1: Keychain + CloudKit edition"
-    },
-    {
-      "path": "curriculum/week-15-deployment-performance-instruments/00-overview.md",
-      "title": "Week 15 \u2014 On-device deployment, performance with Instruments"
-    },
-    {
-      "path": "curriculum/week-15-deployment-performance-instruments/01-resources.md",
-      "title": "Week 15 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-15-deployment-performance-instruments/02-lecture-notes/01-deployment-and-code-signing.md",
-      "title": "Lecture 1 \u2014 Deployment and code signing, demystified"
-    },
-    {
-      "path": "curriculum/week-15-deployment-performance-instruments/02-lecture-notes/02-instruments-hangs-hitches-and-metrickit.md",
-      "title": "Lecture 2 \u2014 Instruments: the right tool for the hang, the hitch, and the leak"
-    },
-    {
-      "path": "curriculum/week-15-deployment-performance-instruments/03-exercises/00-overview.md",
-      "title": "Week 15 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-15-deployment-performance-instruments/03-exercises/exercise-01-deploy-and-read-the-profile.md",
-      "title": "Exercise 1 \u2014 Deploy a Release build and read the profile"
-    },
-    {
-      "path": "curriculum/week-15-deployment-performance-instruments/04-challenges/00-overview.md",
-      "title": "Week 15 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-15-deployment-performance-instruments/04-challenges/challenge-01-hitch-then-fix.md",
-      "title": "Challenge 1 \u2014 Plant a scroll hitch, then fix it (with traces)"
-    },
-    {
-      "path": "curriculum/week-15-deployment-performance-instruments/05-quiz.md",
-      "title": "Week 15 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-15-deployment-performance-instruments/06-homework.md",
-      "title": "Week 15 Homework"
-    },
-    {
-      "path": "curriculum/week-15-deployment-performance-instruments/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 Notes v1: profiled on-device"
-    },
-    {
-      "path": "curriculum/week-16-accessibility-inclusive-engineering/00-overview.md",
-      "title": "Week 16 \u2014 Accessibility and inclusive engineering"
-    },
-    {
-      "path": "curriculum/week-16-accessibility-inclusive-engineering/01-resources.md",
-      "title": "Week 16 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-16-accessibility-inclusive-engineering/02-lecture-notes/01-voiceover-and-the-accessibility-tree.md",
-      "title": "Lecture 1 \u2014 VoiceOver and the accessibility tree: accessibility is engineering, not charity"
-    },
-    {
-      "path": "curriculum/week-16-accessibility-inclusive-engineering/02-lecture-notes/02-dynamic-type-motion-contrast-and-haptics.md",
-      "title": "Lecture 2 \u2014 Dynamic Type, motion, contrast, and haptics: comfortable for every perception"
-    },
-    {
-      "path": "curriculum/week-16-accessibility-inclusive-engineering/03-exercises/00-overview.md",
-      "title": "Week 16 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-16-accessibility-inclusive-engineering/03-exercises/exercise-01-audit-and-label.md",
-      "title": "Exercise 1 \u2014 Audit a screen and fix every label"
-    },
-    {
-      "path": "curriculum/week-16-accessibility-inclusive-engineering/04-challenges/00-overview.md",
-      "title": "Week 16 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-16-accessibility-inclusive-engineering/04-challenges/challenge-01-voiceover-only-operability.md",
-      "title": "Challenge 1 \u2014 Operate the whole app with the screen curtain on"
-    },
-    {
-      "path": "curriculum/week-16-accessibility-inclusive-engineering/05-quiz.md",
-      "title": "Week 16 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-16-accessibility-inclusive-engineering/06-homework.md",
-      "title": "Week 16 Homework"
-    },
-    {
-      "path": "curriculum/week-16-accessibility-inclusive-engineering/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 Notes v1: accessible edition"
-    },
-    {
-      "path": "curriculum/week-17-security-cryptokit-secure-enclave/00-overview.md",
-      "title": "Week 17 \u2014 Security, App Transport Security, CryptoKit, Secure Enclave"
-    },
-    {
-      "path": "curriculum/week-17-security-cryptokit-secure-enclave/01-resources.md",
-      "title": "Week 17 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-17-security-cryptokit-secure-enclave/02-lecture-notes/01-ats-pinning-and-the-threat-model.md",
-      "title": "Lecture 1 \u2014 The threat model first, then App Transport Security and pinning"
-    },
-    {
-      "path": "curriculum/week-17-security-cryptokit-secure-enclave/02-lecture-notes/02-cryptokit-secure-enclave-and-request-signing.md",
-      "title": "Lecture 2 \u2014 CryptoKit, the Secure Enclave, and request signing end to end"
-    },
-    {
-      "path": "curriculum/week-17-security-cryptokit-secure-enclave/03-exercises/00-overview.md",
-      "title": "Week 17 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-17-security-cryptokit-secure-enclave/03-exercises/exercise-01-pin-a-certificate.md",
-      "title": "Exercise 1 \u2014 Pin a certificate (and prove it rejects a wrong one)"
-    },
-    {
-      "path": "curriculum/week-17-security-cryptokit-secure-enclave/04-challenges/00-overview.md",
-      "title": "Week 17 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-17-security-cryptokit-secure-enclave/04-challenges/challenge-01-mitm-then-pin.md",
-      "title": "Challenge 1 \u2014 MITM your own app, then pin it shut (with evidence)"
-    },
-    {
-      "path": "curriculum/week-17-security-cryptokit-secure-enclave/05-quiz.md",
-      "title": "Week 17 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-17-security-cryptokit-secure-enclave/06-homework.md",
-      "title": "Week 17 Homework"
-    },
-    {
-      "path": "curriculum/week-17-security-cryptokit-secure-enclave/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 Harden the NotesClient: pinning + Secure Enclave request signing"
-    },
-    {
-      "path": "curriculum/week-18-push-storekit-metrickit/00-overview.md",
-      "title": "Week 18 \u2014 Push notifications, StoreKit 2, MetricKit telemetry"
-    },
-    {
-      "path": "curriculum/week-18-push-storekit-metrickit/01-resources.md",
-      "title": "Week 18 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-18-push-storekit-metrickit/02-lecture-notes/01-apns-and-the-notification-service-extension.md",
-      "title": "Lecture 1 \u2014 The push pipeline end to end: APNs, payloads, and the Notification Service Extension"
-    },
-    {
-      "path": "curriculum/week-18-push-storekit-metrickit/02-lecture-notes/02-storekit2-server-validation-and-metrickit.md",
-      "title": "Lecture 2 \u2014 StoreKit 2, server-side validation, the subscription edge cases, and MetricKit"
-    },
-    {
-      "path": "curriculum/week-18-push-storekit-metrickit/03-exercises/00-overview.md",
-      "title": "Week 18 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-18-push-storekit-metrickit/03-exercises/exercise-01-register-and-receive-a-push.md",
-      "title": "Exercise 1 \u2014 Register for and receive a real push"
-    },
-    {
-      "path": "curriculum/week-18-push-storekit-metrickit/04-challenges/00-overview.md",
-      "title": "Week 18 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-18-push-storekit-metrickit/04-challenges/challenge-01-subscription-edge-cases.md",
-      "title": "Challenge 1 \u2014 The subscription edge cases: refund, downgrade, billing retry (with evidence)"
-    },
-    {
-      "path": "curriculum/week-18-push-storekit-metrickit/05-quiz.md",
-      "title": "Week 18 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-18-push-storekit-metrickit/06-homework.md",
-      "title": "Week 18 Homework"
-    },
-    {
-      "path": "curriculum/week-18-push-storekit-metrickit/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 Notes Pro v1 (Phase III Integration Project)"
-    },
-    {
-      "path": "curriculum/week-19-multi-platform-targets/00-overview.md",
-      "title": "Week 19 \u2014 Multi-platform: iOS, iPadOS, macOS (Catalyst + native), watchOS, visionOS"
-    },
-    {
-      "path": "curriculum/week-19-multi-platform-targets/01-resources.md",
-      "title": "Week 19 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-19-multi-platform-targets/02-lecture-notes/01-one-codebase-five-platforms.md",
-      "title": "Lecture 1 \u2014 One codebase, five platforms: the share/adapt line, topology, and adaptive navigation"
-    },
-    {
-      "path": "curriculum/week-19-multi-platform-targets/02-lecture-notes/02-watchos-visionos-and-the-shared-core.md",
-      "title": "Lecture 2 \u2014 watchOS, visionOS, and the shared core that holds it together"
-    },
-    {
-      "path": "curriculum/week-19-multi-platform-targets/03-exercises/00-overview.md",
-      "title": "Week 19 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-19-multi-platform-targets/03-exercises/exercise-01-adaptive-navigation.md",
-      "title": "Exercise 1 \u2014 One adaptive navigation, three platforms"
-    },
-    {
-      "path": "curriculum/week-19-multi-platform-targets/04-challenges/00-overview.md",
-      "title": "Week 19 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-19-multi-platform-targets/04-challenges/challenge-01-watch-complication-and-parity.md",
-      "title": "Challenge 1 \u2014 A watch complication + a five-platform parity matrix"
-    },
-    {
-      "path": "curriculum/week-19-multi-platform-targets/05-quiz.md",
-      "title": "Week 19 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-19-multi-platform-targets/06-homework.md",
-      "title": "Week 19 Homework"
-    },
-    {
-      "path": "curriculum/week-19-multi-platform-targets/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 Notes Pro v1, on five platforms"
-    },
-    {
-      "path": "curriculum/week-20-widgets-app-intents-spotlight/00-overview.md",
-      "title": "Week 20 \u2014 Widgets, App Intents, Shortcuts, Spotlight"
-    },
-    {
-      "path": "curriculum/week-20-widgets-app-intents-spotlight/01-resources.md",
-      "title": "Week 20 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-20-widgets-app-intents-spotlight/02-lecture-notes/01-app-intents-the-new-contract.md",
-      "title": "Lecture 1 \u2014 App Intents: the new contract between your app and the rest of iOS"
-    },
-    {
-      "path": "curriculum/week-20-widgets-app-intents-spotlight/02-lecture-notes/02-widgetkit-timelines-app-groups-spotlight.md",
-      "title": "Lecture 2 \u2014 WidgetKit timelines, the App Group that feeds them, and Spotlight"
-    },
-    {
-      "path": "curriculum/week-20-widgets-app-intents-spotlight/03-exercises/00-overview.md",
-      "title": "Week 20 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-20-widgets-app-intents-spotlight/03-exercises/exercise-01-first-widget-timeline.md",
-      "title": "Exercise 1 \u2014 A first widget on a shared timeline"
-    },
-    {
-      "path": "curriculum/week-20-widgets-app-intents-spotlight/04-challenges/00-overview.md",
-      "title": "Week 20 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-20-widgets-app-intents-spotlight/04-challenges/challenge-01-interactive-widget-pin.md",
-      "title": "Challenge 1 \u2014 An interactive \"pin\" widget (with the round-trip proven)"
-    },
-    {
-      "path": "curriculum/week-20-widgets-app-intents-spotlight/05-quiz.md",
-      "title": "Week 20 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-20-widgets-app-intents-spotlight/06-homework.md",
-      "title": "Week 20 Homework"
-    },
-    {
-      "path": "curriculum/week-20-widgets-app-intents-spotlight/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 Hello, Notes: surfaced everywhere"
-    },
-    {
-      "path": "curriculum/week-21-live-activities-background-processing/00-overview.md",
-      "title": "Week 21 \u2014 Live Activities, ActivityKit, background processing"
-    },
-    {
-      "path": "curriculum/week-21-live-activities-background-processing/01-resources.md",
-      "title": "Week 21 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-21-live-activities-background-processing/02-lecture-notes/01-activitykit-dynamic-island-push.md",
-      "title": "Lecture 1 \u2014 Live Activities, the Dynamic Island, and the push that drives them"
-    },
-    {
-      "path": "curriculum/week-21-live-activities-background-processing/02-lecture-notes/02-background-tasks-low-power-and-the-budget.md",
-      "title": "Lecture 2 \u2014 BackgroundTasks, Low Power Mode, and the budget that governs everything"
-    },
-    {
-      "path": "curriculum/week-21-live-activities-background-processing/03-exercises/00-overview.md",
-      "title": "Week 21 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-21-live-activities-background-processing/03-exercises/exercise-01-first-live-activity.md",
-      "title": "Exercise 1 \u2014 A first Live Activity, started locally"
-    },
-    {
-      "path": "curriculum/week-21-live-activities-background-processing/04-challenges/00-overview.md",
-      "title": "Week 21 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-21-live-activities-background-processing/04-challenges/challenge-01-push-to-start-from-vapor.md",
-      "title": "Challenge 1 \u2014 Push-to-start a Live Activity from Vapor (the full lifecycle over the wire)"
-    },
-    {
-      "path": "curriculum/week-21-live-activities-background-processing/05-quiz.md",
-      "title": "Week 21 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-21-live-activities-background-processing/06-homework.md",
-      "title": "Week 21 Homework"
-    },
-    {
-      "path": "curriculum/week-21-live-activities-background-processing/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 The \"shared-note edit in progress\" Live Activity"
-    },
-    {
-      "path": "curriculum/week-22-testing-ci-fastlane/00-overview.md",
-      "title": "Week 22 \u2014 Testing at scale, CI on GitHub Actions, fastlane"
-    },
-    {
-      "path": "curriculum/week-22-testing-ci-fastlane/01-resources.md",
-      "title": "Week 22 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-22-testing-ci-fastlane/02-lecture-notes/01-swift-testing-xcuitest-snapshot.md",
-      "title": "Lecture 1 \u2014 Testing at scale: Swift Testing, XCUITest, and snapshots"
-    },
-    {
-      "path": "curriculum/week-22-testing-ci-fastlane/02-lecture-notes/02-github-actions-fastlane-testflight.md",
-      "title": "Lecture 2 \u2014 The pipeline: GitHub Actions, fastlane, and TestFlight"
-    },
-    {
-      "path": "curriculum/week-22-testing-ci-fastlane/03-exercises/00-overview.md",
-      "title": "Week 22 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-22-testing-ci-fastlane/03-exercises/exercise-03-github-actions-pr-workflow.md",
-      "title": "Exercise 3 \u2014 A GitHub Actions PR workflow that gates the merge"
-    },
-    {
-      "path": "curriculum/week-22-testing-ci-fastlane/04-challenges/00-overview.md",
-      "title": "Week 22 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-22-testing-ci-fastlane/04-challenges/challenge-01-match-and-testflight.md",
-      "title": "Challenge 1 \u2014 `match` + TestFlight from `main` (commit to build, untouched)"
-    },
-    {
-      "path": "curriculum/week-22-testing-ci-fastlane/05-quiz.md",
-      "title": "Week 22 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-22-testing-ci-fastlane/06-homework.md",
-      "title": "Week 22 Homework"
-    },
-    {
-      "path": "curriculum/week-22-testing-ci-fastlane/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 The full pipeline: PR gates, `main` ships to TestFlight"
-    },
-    {
-      "path": "curriculum/week-23-capstone-build-sprint/00-overview.md",
-      "title": "Week 23 \u2014 Capstone Build Sprint"
-    },
-    {
-      "path": "curriculum/week-23-capstone-build-sprint/01-resources.md",
-      "title": "Week 23 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-23-capstone-build-sprint/02-lecture-notes/01-integrating-the-capstone-and-the-architecture-review.md",
-      "title": "Lecture 1 \u2014 Integrating the Capstone and Running the Architecture Review"
-    },
-    {
-      "path": "curriculum/week-23-capstone-build-sprint/02-lecture-notes/02-adrs-the-production-runbook-and-the-release-candidate.md",
-      "title": "Lecture 2 \u2014 ADRs, the Production Runbook, and the Release Candidate"
-    },
-    {
-      "path": "curriculum/week-23-capstone-build-sprint/03-exercises/00-overview.md",
-      "title": "Week 23 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-23-capstone-build-sprint/03-exercises/exercise-01-trace-one-write-end-to-end.md",
-      "title": "Exercise 1 \u2014 Trace one write end to end"
-    },
-    {
-      "path": "curriculum/week-23-capstone-build-sprint/04-challenges/00-overview.md",
-      "title": "Week 23 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-23-capstone-build-sprint/04-challenges/challenge-01-architecture-review-sign-off.md",
-      "title": "Challenge 1 \u2014 The architecture-review sign-off"
-    },
-    {
-      "path": "curriculum/week-23-capstone-build-sprint/05-quiz.md",
-      "title": "Week 23 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-23-capstone-build-sprint/06-homework.md",
-      "title": "Week 23 Homework"
-    },
-    {
-      "path": "curriculum/week-23-capstone-build-sprint/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 The Capstone Build Sprint"
-    },
-    {
-      "path": "curriculum/week-24-testflight-app-review-chaos-drill/00-overview.md",
-      "title": "Week 24 \u2014 TestFlight, App Review, Chaos Drill, Demo Day"
-    },
-    {
-      "path": "curriculum/week-24-testflight-app-review-chaos-drill/01-resources.md",
-      "title": "Week 24 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-24-testflight-app-review-chaos-drill/02-lecture-notes/01-app-review-and-shipping-to-testflight.md",
-      "title": "Lecture 1 \u2014 App Review and Shipping to TestFlight"
-    },
-    {
-      "path": "curriculum/week-24-testflight-app-review-chaos-drill/02-lecture-notes/02-the-chaos-drill-the-postmortem-and-demo-day.md",
-      "title": "Lecture 2 \u2014 The Chaos Drill, the Postmortem, and Demo Day"
-    },
-    {
-      "path": "curriculum/week-24-testflight-app-review-chaos-drill/03-exercises/00-overview.md",
-      "title": "Week 24 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-24-testflight-app-review-chaos-drill/03-exercises/exercise-01-app-review-readiness-audit.md",
-      "title": "Exercise 1 \u2014 The App Review readiness audit"
-    },
-    {
-      "path": "curriculum/week-24-testflight-app-review-chaos-drill/04-challenges/00-overview.md",
-      "title": "Week 24 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-24-testflight-app-review-chaos-drill/04-challenges/challenge-01-ship-survive-and-present.md",
-      "title": "Challenge 1 \u2014 Ship, survive, and present"
-    },
-    {
-      "path": "curriculum/week-24-testflight-app-review-chaos-drill/05-quiz.md",
-      "title": "Week 24 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-24-testflight-app-review-chaos-drill/06-homework.md",
-      "title": "Week 24 Homework"
-    },
-    {
-      "path": "curriculum/week-24-testflight-app-review-chaos-drill/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 The Capstone Delivery: Ship, Survive, Present"
-    },
-    {
-      "path": "projects/capstone/00-overview.md",
-      "title": "Capstone Project \u2014 Master Guide"
-    },
-    {
-      "path": "resources/setup-guides/00-overview.md",
-      "title": "Setup Guides"
-    },
-    {
-      "path": "resources/setup-guides/browser.md",
-      "title": "Browser-Based Setup (No Install)"
-    },
-    {
-      "path": "resources/setup-guides/linux.md",
-      "title": "Linux Setup Guide"
-    },
-    {
-      "path": "resources/setup-guides/macos.md",
-      "title": "macOS Setup Guide"
-    },
-    {
-      "path": "resources/setup-guides/windows.md",
-      "title": "Windows Setup Guide"
-    }
+    {"path": "._CHARTER.md", "title": ". CHARTER"},
+    {"path": "._README.md", "title": ". README"},
+    {"path": "._SYLLABUS.md", "title": ". SYLLABUS"},
+    {"path": "CHARTER.md", "title": "C20 · Crunch Swift — Charter"},
+    {"path": "README.md", "title": "C20 · Crunch Swift — iOS & Apple Platform Engineering"},
+    {"path": "SYLLABUS.md", "title": "C20 · Crunch Swift — Syllabus"},
+    {"path": "curriculum/week-01-swift-the-language/._README.md", "title": ". README"},
+    {"path": "curriculum/week-01-swift-the-language/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-01-swift-the-language/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-01-swift-the-language/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-01-swift-the-language/README.md", "title": "Week 1 — Swift the Language"},
+    {"path": "curriculum/week-01-swift-the-language/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-01-swift-the-language/challenges/._challenge-01-wordfreq-multi-file.md", "title": ". challenge 01 wordfreq multi file"},
+    {"path": "curriculum/week-01-swift-the-language/challenges/README.md", "title": "Week 1 — Challenges"},
+    {"path": "curriculum/week-01-swift-the-language/challenges/challenge-01-wordfreq-multi-file.md", "title": "Challenge 1 — Multi-file `wordfreq` with `--min-count`"},
+    {"path": "curriculum/week-01-swift-the-language/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-01-swift-the-language/exercises/._exercise-01-install-and-prove-value-semantics.md", "title": ". exercise 01 install and prove value semantics"},
+    {"path": "curriculum/week-01-swift-the-language/exercises/README.md", "title": "Week 1 — Exercises"},
+    {"path": "curriculum/week-01-swift-the-language/exercises/exercise-01-install-and-prove-value-semantics.md", "title": "Exercise 1 — Install the Toolchain and Prove Value Semantics"},
+    {"path": "curriculum/week-01-swift-the-language/homework.md", "title": "Week 1 Homework"},
+    {"path": "curriculum/week-01-swift-the-language/lecture-notes/._01-swift-for-the-typed-oop-engineer.md", "title": ". 01 swift for the typed oop engineer"},
+    {"path": "curriculum/week-01-swift-the-language/lecture-notes/._02-swiftpm-the-repl-and-swift-testing.md", "title": ". 02 swiftpm the repl and swift testing"},
+    {"path": "curriculum/week-01-swift-the-language/lecture-notes/01-swift-for-the-typed-oop-engineer.md", "title": "Lecture 1 — Swift for the Typed-OOP Engineer: What Maps and What Breaks"},
+    {"path": "curriculum/week-01-swift-the-language/lecture-notes/02-swiftpm-the-repl-and-swift-testing.md", "title": "Lecture 2 — SwiftPM Executables, the REPL, and the Swift Testing Target"},
+    {"path": "curriculum/week-01-swift-the-language/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-01-swift-the-language/mini-project/README.md", "title": "Mini-Project — `wordfreq` CLI"},
+    {"path": "curriculum/week-01-swift-the-language/quiz.md", "title": "Week 1 — Quiz"},
+    {"path": "curriculum/week-01-swift-the-language/resources.md", "title": "Week 1 — Resources"},
+    {"path": "curriculum/week-02-protocols-generics-error-handling/._README.md", "title": ". README"},
+    {"path": "curriculum/week-02-protocols-generics-error-handling/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-02-protocols-generics-error-handling/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-02-protocols-generics-error-handling/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-02-protocols-generics-error-handling/README.md", "title": "Week 2 — Protocols, Generics, and Error Handling"},
+    {"path": "curriculum/week-02-protocols-generics-error-handling/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-02-protocols-generics-error-handling/challenges/._challenge-01-pluggable-eviction-policy.md", "title": ". challenge 01 pluggable eviction policy"},
+    {"path": "curriculum/week-02-protocols-generics-error-handling/challenges/README.md", "title": "Week 2 — Challenges"},
+    {"path": "curriculum/week-02-protocols-generics-error-handling/challenges/challenge-01-pluggable-eviction-policy.md", "title": "Challenge 1 — Pluggable Eviction Policy via a Protocol"},
+    {"path": "curriculum/week-02-protocols-generics-error-handling/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-02-protocols-generics-error-handling/exercises/._exercise-01-associatedtype-and-generics.md", "title": ". exercise 01 associatedtype and generics"},
+    {"path": "curriculum/week-02-protocols-generics-error-handling/exercises/README.md", "title": "Week 2 — Exercises"},
+    {"path": "curriculum/week-02-protocols-generics-error-handling/exercises/exercise-01-associatedtype-and-generics.md", "title": "Exercise 1 — A protocol with an `associatedtype`, and a generic function over it"},
+    {"path": "curriculum/week-02-protocols-generics-error-handling/homework.md", "title": "Week 2 Homework"},
+    {"path": "curriculum/week-02-protocols-generics-error-handling/lecture-notes/._01-protocols-generics-not-java.md", "title": ". 01 protocols generics not java"},
+    {"path": "curriculum/week-02-protocols-generics-error-handling/lecture-notes/._02-some-vs-any-and-the-error-model.md", "title": ". 02 some vs any and the error model"},
+    {"path": "curriculum/week-02-protocols-generics-error-handling/lecture-notes/01-protocols-generics-not-java.md", "title": "Lecture 1 — Protocols and Generics: Why Swift Is Not Java With Cleaner Syntax"},
+    {"path": "curriculum/week-02-protocols-generics-error-handling/lecture-notes/02-some-vs-any-and-the-error-model.md", "title": "Lecture 2 — `some` vs `any`, Type Erasure, and Swift's Error Model"},
+    {"path": "curriculum/week-02-protocols-generics-error-handling/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-02-protocols-generics-error-handling/mini-project/README.md", "title": "Mini-Project — A Generic `Cache<Key, Value>` with TTL Eviction and a Pluggable Store"},
+    {"path": "curriculum/week-02-protocols-generics-error-handling/quiz.md", "title": "Week 2 — Quiz"},
+    {"path": "curriculum/week-02-protocols-generics-error-handling/resources.md", "title": "Week 2 — Resources"},
+    {"path": "curriculum/week-03-swift-concurrency-async-await/._README.md", "title": ". README"},
+    {"path": "curriculum/week-03-swift-concurrency-async-await/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-03-swift-concurrency-async-await/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-03-swift-concurrency-async-await/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-03-swift-concurrency-async-await/README.md", "title": "Week 3 — Swift Concurrency I: async / await and Structured Concurrency"},
+    {"path": "curriculum/week-03-swift-concurrency-async-await/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-03-swift-concurrency-async-await/challenges/._challenge-01-retry-with-bounded-concurrency.md", "title": ". challenge 01 retry with bounded concurrency"},
+    {"path": "curriculum/week-03-swift-concurrency-async-await/challenges/README.md", "title": "Week 3 — Challenges"},
+    {"path": "curriculum/week-03-swift-concurrency-async-await/challenges/challenge-01-retry-with-bounded-concurrency.md", "title": "Challenge 1 — `--retry` with Bounded Concurrency That Drains Cleanly on Ctrl-C"},
+    {"path": "curriculum/week-03-swift-concurrency-async-await/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-03-swift-concurrency-async-await/exercises/._exercise-01-async-let-vs-taskgroup.md", "title": ". exercise 01 async let vs taskgroup"},
+    {"path": "curriculum/week-03-swift-concurrency-async-await/exercises/README.md", "title": "Week 3 — Exercises"},
+    {"path": "curriculum/week-03-swift-concurrency-async-await/exercises/exercise-01-async-let-vs-taskgroup.md", "title": "Exercise 1 — `async let` vs `TaskGroup`"},
+    {"path": "curriculum/week-03-swift-concurrency-async-await/homework.md", "title": "Week 3 Homework"},
+    {"path": "curriculum/week-03-swift-concurrency-async-await/lecture-notes/._01-structured-concurrency-task-trees-and-cancellation.md", "title": ". 01 structured concurrency task trees and cancellation"},
+    {"path": "curriculum/week-03-swift-concurrency-async-await/lecture-notes/._02-task-vs-detached-and-why-dispatchqueue-is-the-past.md", "title": ". 02 task vs detached and why dispatchqueue is the past"},
+    {"path": "curriculum/week-03-swift-concurrency-async-await/lecture-notes/01-structured-concurrency-task-trees-and-cancellation.md", "title": "Lecture 1 — The Structured Concurrency Model: Task Trees and Cancellation"},
+    {"path": "curriculum/week-03-swift-concurrency-async-await/lecture-notes/02-task-vs-detached-and-why-dispatchqueue-is-the-past.md", "title": "Lecture 2 — `Task { }` vs `Task.detached`, and Why `DispatchQueue` Is the Past"},
+    {"path": "curriculum/week-03-swift-concurrency-async-await/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-03-swift-concurrency-async-await/mini-project/README.md", "title": "Mini-Project — Parallel Link-Checker CLI"},
+    {"path": "curriculum/week-03-swift-concurrency-async-await/quiz.md", "title": "Week 3 — Quiz"},
+    {"path": "curriculum/week-03-swift-concurrency-async-await/resources.md", "title": "Week 3 — Resources"},
+    {"path": "curriculum/week-04-actors-sendable-strict-concurrency/._README.md", "title": ". README"},
+    {"path": "curriculum/week-04-actors-sendable-strict-concurrency/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-04-actors-sendable-strict-concurrency/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-04-actors-sendable-strict-concurrency/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-04-actors-sendable-strict-concurrency/README.md", "title": "Week 4 — Actors, Sendable, and Strict Concurrency"},
+    {"path": "curriculum/week-04-actors-sendable-strict-concurrency/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-04-actors-sendable-strict-concurrency/challenges/._challenge-01-remove-the-escape-hatch.md", "title": ". challenge 01 remove the escape hatch"},
+    {"path": "curriculum/week-04-actors-sendable-strict-concurrency/challenges/README.md", "title": "Week 4 — Challenges"},
+    {"path": "curriculum/week-04-actors-sendable-strict-concurrency/challenges/challenge-01-remove-the-escape-hatch.md", "title": "Challenge 1 — Remove the Escape Hatch"},
+    {"path": "curriculum/week-04-actors-sendable-strict-concurrency/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-04-actors-sendable-strict-concurrency/exercises/._exercise-01-class-to-actor.md", "title": ". exercise 01 class to actor"},
+    {"path": "curriculum/week-04-actors-sendable-strict-concurrency/exercises/README.md", "title": "Week 4 — Exercises"},
+    {"path": "curriculum/week-04-actors-sendable-strict-concurrency/exercises/exercise-01-class-to-actor.md", "title": "Exercise 1 — From Class to Actor"},
+    {"path": "curriculum/week-04-actors-sendable-strict-concurrency/homework.md", "title": "Week 4 Homework"},
+    {"path": "curriculum/week-04-actors-sendable-strict-concurrency/lecture-notes/._01-actors-isolation-and-hops.md", "title": ". 01 actors isolation and hops"},
+    {"path": "curriculum/week-04-actors-sendable-strict-concurrency/lecture-notes/._02-strict-concurrency-and-a-worked-migration.md", "title": ". 02 strict concurrency and a worked migration"},
+    {"path": "curriculum/week-04-actors-sendable-strict-concurrency/lecture-notes/01-actors-isolation-and-hops.md", "title": "Lecture 1 — Actors, Isolation, and Hops"},
+    {"path": "curriculum/week-04-actors-sendable-strict-concurrency/lecture-notes/02-strict-concurrency-and-a-worked-migration.md", "title": "Lecture 2 — Strict Concurrency and a Worked Migration"},
+    {"path": "curriculum/week-04-actors-sendable-strict-concurrency/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-04-actors-sendable-strict-concurrency/mini-project/README.md", "title": "Mini-Project — ActorKV: migrate a callback key-value store to an actor under strict concurrency"},
+    {"path": "curriculum/week-04-actors-sendable-strict-concurrency/quiz.md", "title": "Week 4 — Quiz"},
+    {"path": "curriculum/week-04-actors-sendable-strict-concurrency/resources.md", "title": "Week 4 — Resources"},
+    {"path": "curriculum/week-05-vapor-server-side-swift/._README.md", "title": ". README"},
+    {"path": "curriculum/week-05-vapor-server-side-swift/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-05-vapor-server-side-swift/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-05-vapor-server-side-swift/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-05-vapor-server-side-swift/README.md", "title": "Week 5 — Vapor: Server-Side Swift Fundamentals"},
+    {"path": "curriculum/week-05-vapor-server-side-swift/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-05-vapor-server-side-swift/challenges/._challenge-01-problem-json-error-handling.md", "title": ". challenge 01 problem json error handling"},
+    {"path": "curriculum/week-05-vapor-server-side-swift/challenges/README.md", "title": "Week 5 — Challenges"},
+    {"path": "curriculum/week-05-vapor-server-side-swift/challenges/challenge-01-problem-json-error-handling.md", "title": "Challenge 1 — RFC 9457 Problem-JSON Errors Across Every Notes Endpoint"},
+    {"path": "curriculum/week-05-vapor-server-side-swift/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-05-vapor-server-side-swift/exercises/._exercise-01-fluent-model-migration-crud.md", "title": ". exercise 01 fluent model migration crud"},
+    {"path": "curriculum/week-05-vapor-server-side-swift/exercises/README.md", "title": "Week 5 — Exercises"},
+    {"path": "curriculum/week-05-vapor-server-side-swift/exercises/exercise-01-fluent-model-migration-crud.md", "title": "Exercise 1 — Fluent Model, Migration, and CRUD Routes"},
+    {"path": "curriculum/week-05-vapor-server-side-swift/homework.md", "title": "Week 5 Homework"},
+    {"path": "curriculum/week-05-vapor-server-side-swift/lecture-notes/._01-why-vapor-the-shape-of-a-production-swift-http-service.md", "title": ". 01 why vapor the shape of a production swift http service"},
+    {"path": "curriculum/week-05-vapor-server-side-swift/lecture-notes/._02-vapor-vs-hummingbird-fastapi-express-rails.md", "title": ". 02 vapor vs hummingbird fastapi express rails"},
+    {"path": "curriculum/week-05-vapor-server-side-swift/lecture-notes/01-why-vapor-the-shape-of-a-production-swift-http-service.md", "title": "Lecture 1 — Why Vapor: The Shape of a Production Swift HTTP Service"},
+    {"path": "curriculum/week-05-vapor-server-side-swift/lecture-notes/02-vapor-vs-hummingbird-fastapi-express-rails.md", "title": "Lecture 2 — Vapor vs Hummingbird, FastAPI, Express, and Rails"},
+    {"path": "curriculum/week-05-vapor-server-side-swift/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-05-vapor-server-side-swift/mini-project/README.md", "title": "Mini-Project — `notes-api`: a Dockerized REST service backed by Postgres"},
+    {"path": "curriculum/week-05-vapor-server-side-swift/quiz.md", "title": "Week 5 — Quiz"},
+    {"path": "curriculum/week-05-vapor-server-side-swift/resources.md", "title": "Week 5 — Resources"},
+    {"path": "curriculum/week-06-shared-types-swift-nio-integration/._README.md", "title": ". README"},
+    {"path": "curriculum/week-06-shared-types-swift-nio-integration/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-06-shared-types-swift-nio-integration/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-06-shared-types-swift-nio-integration/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-06-shared-types-swift-nio-integration/README.md", "title": "Week 6 — Shared Types, swift-nio Basics, Phase I Integration"},
+    {"path": "curriculum/week-06-shared-types-swift-nio-integration/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-06-shared-types-swift-nio-integration/challenges/._challenge-01-coverage-above-70.md", "title": ". challenge 01 coverage above 70"},
+    {"path": "curriculum/week-06-shared-types-swift-nio-integration/challenges/README.md", "title": "Week 6 — Challenges"},
+    {"path": "curriculum/week-06-shared-types-swift-nio-integration/challenges/challenge-01-coverage-above-70.md", "title": "Challenge 1 — Raise `NotesCore` Swift Testing Coverage Above 70%"},
+    {"path": "curriculum/week-06-shared-types-swift-nio-integration/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-06-shared-types-swift-nio-integration/exercises/._exercise-01-extract-notescore.md", "title": ". exercise 01 extract notescore"},
+    {"path": "curriculum/week-06-shared-types-swift-nio-integration/exercises/README.md", "title": "Week 6 — Exercises"},
+    {"path": "curriculum/week-06-shared-types-swift-nio-integration/exercises/exercise-01-extract-notescore.md", "title": "Exercise 1 — Extract `NotesCore`"},
+    {"path": "curriculum/week-06-shared-types-swift-nio-integration/homework.md", "title": "Week 6 Homework"},
+    {"path": "curriculum/week-06-shared-types-swift-nio-integration/lecture-notes/._01-shared-codable-types.md", "title": ". 01 shared codable types"},
+    {"path": "curriculum/week-06-shared-types-swift-nio-integration/lecture-notes/._02-swift-nio-and-swift-collections.md", "title": ". 02 swift nio and swift collections"},
+    {"path": "curriculum/week-06-shared-types-swift-nio-integration/lecture-notes/01-shared-codable-types.md", "title": "Lecture 1 — Shared Codable Types: The Move That Pays for the Rest of the Track"},
+    {"path": "curriculum/week-06-shared-types-swift-nio-integration/lecture-notes/02-swift-nio-and-swift-collections.md", "title": "Lecture 2 — swift-nio Event Loops and swift-collections at a Glance"},
+    {"path": "curriculum/week-06-shared-types-swift-nio-integration/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-06-shared-types-swift-nio-integration/mini-project/README.md", "title": "Mini-Project — Phase I Integration: `NotesCore` + `notes-cli`"},
+    {"path": "curriculum/week-06-shared-types-swift-nio-integration/quiz.md", "title": "Week 6 — Quiz"},
+    {"path": "curriculum/week-06-shared-types-swift-nio-integration/resources.md", "title": "Week 6 — Resources"},
+    {"path": "curriculum/week-07-xcode-swiftui-mental-model/._README.md", "title": ". README"},
+    {"path": "curriculum/week-07-xcode-swiftui-mental-model/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-07-xcode-swiftui-mental-model/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-07-xcode-swiftui-mental-model/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-07-xcode-swiftui-mental-model/README.md", "title": "Week 7 — Xcode, the SwiftUI Mental Model, and Your First App"},
+    {"path": "curriculum/week-07-xcode-swiftui-mental-model/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-07-xcode-swiftui-mental-model/challenges/._challenge-01-dynamic-type-card.md", "title": ". challenge 01 dynamic type card"},
+    {"path": "curriculum/week-07-xcode-swiftui-mental-model/challenges/README.md", "title": "Week 7 — Challenges"},
+    {"path": "curriculum/week-07-xcode-swiftui-mental-model/challenges/challenge-01-dynamic-type-card.md", "title": "Challenge 1 — A Card That Survives the Largest Dynamic Type"},
+    {"path": "curriculum/week-07-xcode-swiftui-mental-model/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-07-xcode-swiftui-mental-model/exercises/._exercise-01-layout-and-modifier-order.md", "title": ". exercise 01 layout and modifier order"},
+    {"path": "curriculum/week-07-xcode-swiftui-mental-model/exercises/README.md", "title": "Week 7 — Exercises"},
+    {"path": "curriculum/week-07-xcode-swiftui-mental-model/exercises/exercise-01-layout-and-modifier-order.md", "title": "Exercise 1 — Layout and the Modifier-Order Rule"},
+    {"path": "curriculum/week-07-xcode-swiftui-mental-model/homework.md", "title": "Week 7 Homework"},
+    {"path": "curriculum/week-07-xcode-swiftui-mental-model/lecture-notes/._01-swiftui-is-a-function-of-state.md", "title": ". 01 swiftui is a function of state"},
+    {"path": "curriculum/week-07-xcode-swiftui-mental-model/lecture-notes/._02-viewbuilder-equatableview-layout-modifiers.md", "title": ". 02 viewbuilder equatableview layout modifiers"},
+    {"path": "curriculum/week-07-xcode-swiftui-mental-model/lecture-notes/01-swiftui-is-a-function-of-state.md", "title": "Lecture 01 — SwiftUI Is a Function from State to View, with Diffing"},
+    {"path": "curriculum/week-07-xcode-swiftui-mental-model/lecture-notes/02-viewbuilder-equatableview-layout-modifiers.md", "title": "Lecture 02 — How `body` Is Invoked: `@ViewBuilder`, `EquatableView`, `Layout`, and the Modifier-Order Rule"},
+    {"path": "curriculum/week-07-xcode-swiftui-mental-model/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-07-xcode-swiftui-mental-model/mini-project/README.md", "title": "Mini-Project — \"Hello, Notes\": your first SwiftUI app"},
+    {"path": "curriculum/week-07-xcode-swiftui-mental-model/quiz.md", "title": "Week 7 — Quiz"},
+    {"path": "curriculum/week-07-xcode-swiftui-mental-model/resources.md", "title": "Week 7 — Resources"},
+    {"path": "curriculum/week-08-state-observable-environment-bindable/._README.md", "title": ". README"},
+    {"path": "curriculum/week-08-state-observable-environment-bindable/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-08-state-observable-environment-bindable/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-08-state-observable-environment-bindable/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-08-state-observable-environment-bindable/README.md", "title": "Week 8 — State: `@State`, `@Observable`, `@Environment`, `@Bindable`"},
+    {"path": "curriculum/week-08-state-observable-environment-bindable/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-08-state-observable-environment-bindable/challenges/._challenge-01-edit-in-sheet-cancel-discards-save-commits.md", "title": ". challenge 01 edit in sheet cancel discards save commits"},
+    {"path": "curriculum/week-08-state-observable-environment-bindable/challenges/README.md", "title": "Week 8 — Challenges"},
+    {"path": "curriculum/week-08-state-observable-environment-bindable/challenges/challenge-01-edit-in-sheet-cancel-discards-save-commits.md", "title": "Challenge 1 — Edit in a Sheet: Cancel Discards, Save Commits, List Updates Exactly Once"},
+    {"path": "curriculum/week-08-state-observable-environment-bindable/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-08-state-observable-environment-bindable/exercises/._exercise-01-environment-injection-no-prop-drilling.md", "title": ". exercise 01 environment injection no prop drilling"},
+    {"path": "curriculum/week-08-state-observable-environment-bindable/exercises/README.md", "title": "Week 8 — Exercises"},
+    {"path": "curriculum/week-08-state-observable-environment-bindable/exercises/exercise-01-environment-injection-no-prop-drilling.md", "title": "Exercise 1 — Environment Injection, No Prop-Drilling"},
+    {"path": "curriculum/week-08-state-observable-environment-bindable/homework.md", "title": "Week 8 Homework"},
+    {"path": "curriculum/week-08-state-observable-environment-bindable/lecture-notes/._01-state-ownership-who-owns-what.md", "title": ". 01 state ownership who owns what"},
+    {"path": "curriculum/week-08-state-observable-environment-bindable/lecture-notes/._02-the-re-render-storm-walkthrough.md", "title": ". 02 the re render storm walkthrough"},
+    {"path": "curriculum/week-08-state-observable-environment-bindable/lecture-notes/01-state-ownership-who-owns-what.md", "title": "Lecture 1 — State Ownership in SwiftUI: Who Owns What, and the Bug Class of Getting It Wrong"},
+    {"path": "curriculum/week-08-state-observable-environment-bindable/lecture-notes/02-the-re-render-storm-walkthrough.md", "title": "Lecture 2 — The SwiftUI Re-Render Storm: A Line-by-Line Walkthrough"},
+    {"path": "curriculum/week-08-state-observable-environment-bindable/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-08-state-observable-environment-bindable/mini-project/README.md", "title": "Mini-Project — Hello, Notes: CRUD Edition"},
+    {"path": "curriculum/week-08-state-observable-environment-bindable/quiz.md", "title": "Week 8 — Quiz"},
+    {"path": "curriculum/week-08-state-observable-environment-bindable/resources.md", "title": "Week 8 — Resources"},
+    {"path": "curriculum/week-09-navigation-deep-links-scenes/._README.md", "title": ". README"},
+    {"path": "curriculum/week-09-navigation-deep-links-scenes/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-09-navigation-deep-links-scenes/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-09-navigation-deep-links-scenes/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-09-navigation-deep-links-scenes/README.md", "title": "Week 9 — Navigation, Deep Links, and Scenes"},
+    {"path": "curriculum/week-09-navigation-deep-links-scenes/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-09-navigation-deep-links-scenes/challenges/._challenge-01-universal-links.md", "title": ". challenge 01 universal links"},
+    {"path": "curriculum/week-09-navigation-deep-links-scenes/challenges/README.md", "title": "Week 9 — Challenges"},
+    {"path": "curriculum/week-09-navigation-deep-links-scenes/challenges/challenge-01-universal-links.md", "title": "Challenge 1 — Universal links, end to end"},
+    {"path": "curriculum/week-09-navigation-deep-links-scenes/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-09-navigation-deep-links-scenes/exercises/._exercise-01-value-typed-stack.md", "title": ". exercise 01 value typed stack"},
+    {"path": "curriculum/week-09-navigation-deep-links-scenes/exercises/README.md", "title": "Week 9 — Exercises"},
+    {"path": "curriculum/week-09-navigation-deep-links-scenes/exercises/exercise-01-value-typed-stack.md", "title": "Exercise 1 — A value-typed `NavigationStack`"},
+    {"path": "curriculum/week-09-navigation-deep-links-scenes/homework.md", "title": "Week 9 Homework"},
+    {"path": "curriculum/week-09-navigation-deep-links-scenes/lecture-notes/._01-navigation-the-post-ios16-model.md", "title": ". 01 navigation the post ios16 model"},
+    {"path": "curriculum/week-09-navigation-deep-links-scenes/lecture-notes/._02-why-value-typed-navigation-enables-deep-links.md", "title": ". 02 why value typed navigation enables deep links"},
+    {"path": "curriculum/week-09-navigation-deep-links-scenes/lecture-notes/01-navigation-the-post-ios16-model.md", "title": "Lecture 1 — Navigation in SwiftUI: the post-iOS-16 model"},
+    {"path": "curriculum/week-09-navigation-deep-links-scenes/lecture-notes/02-why-value-typed-navigation-enables-deep-links.md", "title": "Lecture 2 — Why value-typed navigation enables deep links by construction"},
+    {"path": "curriculum/week-09-navigation-deep-links-scenes/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-09-navigation-deep-links-scenes/mini-project/README.md", "title": "Mini-Project — \"Hello, Notes\" grows a navigation layer"},
+    {"path": "curriculum/week-09-navigation-deep-links-scenes/quiz.md", "title": "Week 9 — Quiz"},
+    {"path": "curriculum/week-09-navigation-deep-links-scenes/resources.md", "title": "Week 9 — Resources"},
+    {"path": "curriculum/week-10-swiftdata-persistence/._README.md", "title": ". README"},
+    {"path": "curriculum/week-10-swiftdata-persistence/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-10-swiftdata-persistence/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-10-swiftdata-persistence/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-10-swiftdata-persistence/README.md", "title": "Week 10 — SwiftData: the modern persistence story"},
+    {"path": "curriculum/week-10-swiftdata-persistence/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-10-swiftdata-persistence/challenges/._challenge-01-footgun-then-refactor.md", "title": ". challenge 01 footgun then refactor"},
+    {"path": "curriculum/week-10-swiftdata-persistence/challenges/README.md", "title": "Week 10 — Challenges"},
+    {"path": "curriculum/week-10-swiftdata-persistence/challenges/challenge-01-footgun-then-refactor.md", "title": "Challenge 1 — Plant a SwiftData footgun, then refactor it (with numbers)"},
+    {"path": "curriculum/week-10-swiftdata-persistence/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-10-swiftdata-persistence/exercises/._exercise-01-model-container-survives-relaunch.md", "title": ". exercise 01 model container survives relaunch"},
+    {"path": "curriculum/week-10-swiftdata-persistence/exercises/README.md", "title": "Week 10 — Exercises"},
+    {"path": "curriculum/week-10-swiftdata-persistence/exercises/exercise-01-model-container-survives-relaunch.md", "title": "Exercise 1 — A ModelContainer that survives relaunch"},
+    {"path": "curriculum/week-10-swiftdata-persistence/homework.md", "title": "Week 10 Homework"},
+    {"path": "curriculum/week-10-swiftdata-persistence/lecture-notes/._01-swiftdata-and-the-core-data-lineage.md", "title": ". 01 swiftdata and the core data lineage"},
+    {"path": "curriculum/week-10-swiftdata-persistence/lecture-notes/._02-coexistence-migrations-and-footguns.md", "title": ". 02 coexistence migrations and footguns"},
+    {"path": "curriculum/week-10-swiftdata-persistence/lecture-notes/01-swiftdata-and-the-core-data-lineage.md", "title": "Lecture 1 — SwiftData and the Core Data lineage: what it solves, and what it still hides"},
+    {"path": "curriculum/week-10-swiftdata-persistence/lecture-notes/02-coexistence-migrations-and-footguns.md", "title": "Lecture 2 — Co-existence, migrations, and the footguns that ship to users"},
+    {"path": "curriculum/week-10-swiftdata-persistence/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-10-swiftdata-persistence/mini-project/README.md", "title": "Mini-Project — Hello, Notes: SwiftData edition"},
+    {"path": "curriculum/week-10-swiftdata-persistence/quiz.md", "title": "Week 10 — Quiz"},
+    {"path": "curriculum/week-10-swiftdata-persistence/resources.md", "title": "Week 10 — Resources"},
+    {"path": "curriculum/week-11-app-architecture-mvvm-tca/._README.md", "title": ". README"},
+    {"path": "curriculum/week-11-app-architecture-mvvm-tca/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-11-app-architecture-mvvm-tca/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-11-app-architecture-mvvm-tca/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-11-app-architecture-mvvm-tca/README.md", "title": "Week 11 — App architecture: MVVM, TCA, and the case against VIPER"},
+    {"path": "curriculum/week-11-app-architecture-mvvm-tca/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-11-app-architecture-mvvm-tca/challenges/._challenge-01-same-feature-three-ways.md", "title": ". challenge 01 same feature three ways"},
+    {"path": "curriculum/week-11-app-architecture-mvvm-tca/challenges/README.md", "title": "Week 11 — Challenges"},
+    {"path": "curriculum/week-11-app-architecture-mvvm-tca/challenges/challenge-01-same-feature-three-ways.md", "title": "Challenge 1 — The same feature, three ways (with numbers and an ADR)"},
+    {"path": "curriculum/week-11-app-architecture-mvvm-tca/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-11-app-architecture-mvvm-tca/exercises/._exercise-01-extract-a-view-model.md", "title": ". exercise 01 extract a view model"},
+    {"path": "curriculum/week-11-app-architecture-mvvm-tca/exercises/README.md", "title": "Week 11 — Exercises"},
+    {"path": "curriculum/week-11-app-architecture-mvvm-tca/exercises/exercise-01-extract-a-view-model.md", "title": "Exercise 1 — Extract a testable view model"},
+    {"path": "curriculum/week-11-app-architecture-mvvm-tca/homework.md", "title": "Week 11 Homework"},
+    {"path": "curriculum/week-11-app-architecture-mvvm-tca/lecture-notes/._01-the-architecture-spectrum-and-mvvm.md", "title": ". 01 the architecture spectrum and mvvm"},
+    {"path": "curriculum/week-11-app-architecture-mvvm-tca/lecture-notes/._02-tca-and-the-case-against-viper.md", "title": ". 02 tca and the case against viper"},
+    {"path": "curriculum/week-11-app-architecture-mvvm-tca/lecture-notes/01-the-architecture-spectrum-and-mvvm.md", "title": "Lecture 1 — The architecture spectrum, and MVVM as a discipline"},
+    {"path": "curriculum/week-11-app-architecture-mvvm-tca/lecture-notes/02-tca-and-the-case-against-viper.md", "title": "Lecture 2 — The Composable Architecture, the case against VIPER, and the ADR"},
+    {"path": "curriculum/week-11-app-architecture-mvvm-tca/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-11-app-architecture-mvvm-tca/mini-project/README.md", "title": "Mini-Project — Search-and-filter, two ways (and the ADR that decides)"},
+    {"path": "curriculum/week-11-app-architecture-mvvm-tca/quiz.md", "title": "Week 11 — Quiz"},
+    {"path": "curriculum/week-11-app-architecture-mvvm-tca/resources.md", "title": "Week 11 — Resources"},
+    {"path": "curriculum/week-12-combine-async-asyncsequence/._README.md", "title": ". README"},
+    {"path": "curriculum/week-12-combine-async-asyncsequence/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-12-combine-async-asyncsequence/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-12-combine-async-asyncsequence/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-12-combine-async-asyncsequence/README.md", "title": "Week 12 — Combine, async/await, and AsyncSequence"},
+    {"path": "curriculum/week-12-combine-async-asyncsequence/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-12-combine-async-asyncsequence/challenges/._challenge-01-debounce-two-ways-measured.md", "title": ". challenge 01 debounce two ways measured"},
+    {"path": "curriculum/week-12-combine-async-asyncsequence/challenges/README.md", "title": "Week 12 — Challenges"},
+    {"path": "curriculum/week-12-combine-async-asyncsequence/challenges/challenge-01-debounce-two-ways-measured.md", "title": "Challenge 1 — Debounce two ways, measured (and the decision note)"},
+    {"path": "curriculum/week-12-combine-async-asyncsequence/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-12-combine-async-asyncsequence/exercises/._exercise-01-combine-pipeline.md", "title": ". exercise 01 combine pipeline"},
+    {"path": "curriculum/week-12-combine-async-asyncsequence/exercises/README.md", "title": "Week 12 — Exercises"},
+    {"path": "curriculum/week-12-combine-async-asyncsequence/exercises/exercise-01-combine-pipeline.md", "title": "Exercise 1 — A Combine pipeline you can read in your sleep"},
+    {"path": "curriculum/week-12-combine-async-asyncsequence/homework.md", "title": "Week 12 Homework"},
+    {"path": "curriculum/week-12-combine-async-asyncsequence/lecture-notes/._01-combine-fundamentals-and-operators.md", "title": ". 01 combine fundamentals and operators"},
+    {"path": "curriculum/week-12-combine-async-asyncsequence/lecture-notes/._02-asyncsequence-bridging-and-the-matrix.md", "title": ". 02 asyncsequence bridging and the matrix"},
+    {"path": "curriculum/week-12-combine-async-asyncsequence/lecture-notes/01-combine-fundamentals-and-operators.md", "title": "Lecture 1 — Combine fundamentals, operators, and where it still earns its keep"},
+    {"path": "curriculum/week-12-combine-async-asyncsequence/lecture-notes/02-asyncsequence-bridging-and-the-matrix.md", "title": "Lecture 2 — AsyncSequence, AsyncStream, the bridge, and the decision matrix"},
+    {"path": "curriculum/week-12-combine-async-asyncsequence/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-12-combine-async-asyncsequence/mini-project/README.md", "title": "Phase II Integration Project — \"Notes v1\""},
+    {"path": "curriculum/week-12-combine-async-asyncsequence/quiz.md", "title": "Week 12 — Quiz"},
+    {"path": "curriculum/week-12-combine-async-asyncsequence/resources.md", "title": "Week 12 — Resources"},
+    {"path": "curriculum/week-13-urlsession-networking-stack/._README.md", "title": ". README"},
+    {"path": "curriculum/week-13-urlsession-networking-stack/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-13-urlsession-networking-stack/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-13-urlsession-networking-stack/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-13-urlsession-networking-stack/README.md", "title": "Week 13 — URLSession and the networking stack"},
+    {"path": "curriculum/week-13-urlsession-networking-stack/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-13-urlsession-networking-stack/challenges/._challenge-01-offline-write-replay.md", "title": ". challenge 01 offline write replay"},
+    {"path": "curriculum/week-13-urlsession-networking-stack/challenges/README.md", "title": "Week 13 — Challenges"},
+    {"path": "curriculum/week-13-urlsession-networking-stack/challenges/challenge-01-offline-write-replay.md", "title": "Challenge 1 — Offline-first write-replay (and prove it survives a drop)"},
+    {"path": "curriculum/week-13-urlsession-networking-stack/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-13-urlsession-networking-stack/exercises/._exercise-01-typed-endpoint-client.md", "title": ". exercise 01 typed endpoint client"},
+    {"path": "curriculum/week-13-urlsession-networking-stack/exercises/README.md", "title": "Week 13 — Exercises"},
+    {"path": "curriculum/week-13-urlsession-networking-stack/exercises/exercise-01-typed-endpoint-client.md", "title": "Exercise 1 — A typed `Endpoint` client"},
+    {"path": "curriculum/week-13-urlsession-networking-stack/homework.md", "title": "Week 13 Homework"},
+    {"path": "curriculum/week-13-urlsession-networking-stack/lecture-notes/._01-from-one-line-to-a-typed-client.md", "title": ". 01 from one line to a typed client"},
+    {"path": "curriculum/week-13-urlsession-networking-stack/lecture-notes/._02-resilience-retries-signing-and-offline-first.md", "title": ". 02 resilience retries signing and offline first"},
+    {"path": "curriculum/week-13-urlsession-networking-stack/lecture-notes/01-from-one-line-to-a-typed-client.md", "title": "Lecture 1 — From one line to a typed, testable client"},
+    {"path": "curriculum/week-13-urlsession-networking-stack/lecture-notes/02-resilience-retries-signing-and-offline-first.md", "title": "Lecture 2 — Resilience: retries, signing, logging, and offline-first"},
+    {"path": "curriculum/week-13-urlsession-networking-stack/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-13-urlsession-networking-stack/mini-project/README.md", "title": "Mini-Project — Wire \"Notes v1\" to the Vapor backend with a resilient `NotesClient`"},
+    {"path": "curriculum/week-13-urlsession-networking-stack/quiz.md", "title": "Week 13 — Quiz"},
+    {"path": "curriculum/week-13-urlsession-networking-stack/resources.md", "title": "Week 13 — Resources"},
+    {"path": "curriculum/week-14-persistence-files-keychain-cloudkit/._README.md", "title": ". README"},
+    {"path": "curriculum/week-14-persistence-files-keychain-cloudkit/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-14-persistence-files-keychain-cloudkit/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-14-persistence-files-keychain-cloudkit/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-14-persistence-files-keychain-cloudkit/README.md", "title": "Week 14 — Persistence II: Files, Keychain, SwiftData + CloudKit"},
+    {"path": "curriculum/week-14-persistence-files-keychain-cloudkit/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-14-persistence-files-keychain-cloudkit/challenges/._challenge-01-token-leak-then-lockdown.md", "title": ". challenge 01 token leak then lockdown"},
+    {"path": "curriculum/week-14-persistence-files-keychain-cloudkit/challenges/README.md", "title": "Week 14 — Challenges"},
+    {"path": "curriculum/week-14-persistence-files-keychain-cloudkit/challenges/challenge-01-token-leak-then-lockdown.md", "title": "Challenge 1 — Plant a token leak, then lock it down (with the threat model)"},
+    {"path": "curriculum/week-14-persistence-files-keychain-cloudkit/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-14-persistence-files-keychain-cloudkit/exercises/._exercise-01-sandbox-and-atomic-writes.md", "title": ". exercise 01 sandbox and atomic writes"},
+    {"path": "curriculum/week-14-persistence-files-keychain-cloudkit/exercises/README.md", "title": "Week 14 — Exercises"},
+    {"path": "curriculum/week-14-persistence-files-keychain-cloudkit/exercises/exercise-01-sandbox-and-atomic-writes.md", "title": "Exercise 1 — The sandbox and atomic writes"},
+    {"path": "curriculum/week-14-persistence-files-keychain-cloudkit/homework.md", "title": "Week 14 Homework"},
+    {"path": "curriculum/week-14-persistence-files-keychain-cloudkit/lecture-notes/._01-files-and-the-keychain.md", "title": ". 01 files and the keychain"},
+    {"path": "curriculum/week-14-persistence-files-keychain-cloudkit/lecture-notes/._02-swiftdata-cloudkit-and-conflict-resolution.md", "title": ". 02 swiftdata cloudkit and conflict resolution"},
+    {"path": "curriculum/week-14-persistence-files-keychain-cloudkit/lecture-notes/01-files-and-the-keychain.md", "title": "Lecture 1 — Where to put each byte: the file system and the Keychain"},
+    {"path": "curriculum/week-14-persistence-files-keychain-cloudkit/lecture-notes/02-swiftdata-cloudkit-and-conflict-resolution.md", "title": "Lecture 2 — SwiftData + CloudKit, the schema constraints, and the conflict you must resolve"},
+    {"path": "curriculum/week-14-persistence-files-keychain-cloudkit/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-14-persistence-files-keychain-cloudkit/mini-project/README.md", "title": "Mini-Project — Notes v1: Keychain + CloudKit edition"},
+    {"path": "curriculum/week-14-persistence-files-keychain-cloudkit/quiz.md", "title": "Week 14 — Quiz"},
+    {"path": "curriculum/week-14-persistence-files-keychain-cloudkit/resources.md", "title": "Week 14 — Resources"},
+    {"path": "curriculum/week-15-deployment-performance-instruments/._README.md", "title": ". README"},
+    {"path": "curriculum/week-15-deployment-performance-instruments/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-15-deployment-performance-instruments/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-15-deployment-performance-instruments/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-15-deployment-performance-instruments/README.md", "title": "Week 15 — On-device deployment, performance with Instruments"},
+    {"path": "curriculum/week-15-deployment-performance-instruments/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-15-deployment-performance-instruments/challenges/._challenge-01-hitch-then-fix.md", "title": ". challenge 01 hitch then fix"},
+    {"path": "curriculum/week-15-deployment-performance-instruments/challenges/README.md", "title": "Week 15 — Challenges"},
+    {"path": "curriculum/week-15-deployment-performance-instruments/challenges/challenge-01-hitch-then-fix.md", "title": "Challenge 1 — Plant a scroll hitch, then fix it (with traces)"},
+    {"path": "curriculum/week-15-deployment-performance-instruments/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-15-deployment-performance-instruments/exercises/._exercise-01-deploy-and-read-the-profile.md", "title": ". exercise 01 deploy and read the profile"},
+    {"path": "curriculum/week-15-deployment-performance-instruments/exercises/README.md", "title": "Week 15 — Exercises"},
+    {"path": "curriculum/week-15-deployment-performance-instruments/exercises/exercise-01-deploy-and-read-the-profile.md", "title": "Exercise 1 — Deploy a Release build and read the profile"},
+    {"path": "curriculum/week-15-deployment-performance-instruments/homework.md", "title": "Week 15 Homework"},
+    {"path": "curriculum/week-15-deployment-performance-instruments/lecture-notes/._01-deployment-and-code-signing.md", "title": ". 01 deployment and code signing"},
+    {"path": "curriculum/week-15-deployment-performance-instruments/lecture-notes/._02-instruments-hangs-hitches-and-metrickit.md", "title": ". 02 instruments hangs hitches and metrickit"},
+    {"path": "curriculum/week-15-deployment-performance-instruments/lecture-notes/01-deployment-and-code-signing.md", "title": "Lecture 1 — Deployment and code signing, demystified"},
+    {"path": "curriculum/week-15-deployment-performance-instruments/lecture-notes/02-instruments-hangs-hitches-and-metrickit.md", "title": "Lecture 2 — Instruments: the right tool for the hang, the hitch, and the leak"},
+    {"path": "curriculum/week-15-deployment-performance-instruments/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-15-deployment-performance-instruments/mini-project/README.md", "title": "Mini-Project — Notes v1: profiled on-device"},
+    {"path": "curriculum/week-15-deployment-performance-instruments/quiz.md", "title": "Week 15 — Quiz"},
+    {"path": "curriculum/week-15-deployment-performance-instruments/resources.md", "title": "Week 15 — Resources"},
+    {"path": "curriculum/week-16-accessibility-inclusive-engineering/._README.md", "title": ". README"},
+    {"path": "curriculum/week-16-accessibility-inclusive-engineering/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-16-accessibility-inclusive-engineering/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-16-accessibility-inclusive-engineering/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-16-accessibility-inclusive-engineering/README.md", "title": "Week 16 — Accessibility and inclusive engineering"},
+    {"path": "curriculum/week-16-accessibility-inclusive-engineering/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-16-accessibility-inclusive-engineering/challenges/._challenge-01-voiceover-only-operability.md", "title": ". challenge 01 voiceover only operability"},
+    {"path": "curriculum/week-16-accessibility-inclusive-engineering/challenges/README.md", "title": "Week 16 — Challenges"},
+    {"path": "curriculum/week-16-accessibility-inclusive-engineering/challenges/challenge-01-voiceover-only-operability.md", "title": "Challenge 1 — Operate the whole app with the screen curtain on"},
+    {"path": "curriculum/week-16-accessibility-inclusive-engineering/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-16-accessibility-inclusive-engineering/exercises/._exercise-01-audit-and-label.md", "title": ". exercise 01 audit and label"},
+    {"path": "curriculum/week-16-accessibility-inclusive-engineering/exercises/README.md", "title": "Week 16 — Exercises"},
+    {"path": "curriculum/week-16-accessibility-inclusive-engineering/exercises/exercise-01-audit-and-label.md", "title": "Exercise 1 — Audit a screen and fix every label"},
+    {"path": "curriculum/week-16-accessibility-inclusive-engineering/homework.md", "title": "Week 16 Homework"},
+    {"path": "curriculum/week-16-accessibility-inclusive-engineering/lecture-notes/._01-voiceover-and-the-accessibility-tree.md", "title": ". 01 voiceover and the accessibility tree"},
+    {"path": "curriculum/week-16-accessibility-inclusive-engineering/lecture-notes/._02-dynamic-type-motion-contrast-and-haptics.md", "title": ". 02 dynamic type motion contrast and haptics"},
+    {"path": "curriculum/week-16-accessibility-inclusive-engineering/lecture-notes/01-voiceover-and-the-accessibility-tree.md", "title": "Lecture 1 — VoiceOver and the accessibility tree: accessibility is engineering, not charity"},
+    {"path": "curriculum/week-16-accessibility-inclusive-engineering/lecture-notes/02-dynamic-type-motion-contrast-and-haptics.md", "title": "Lecture 2 — Dynamic Type, motion, contrast, and haptics: comfortable for every perception"},
+    {"path": "curriculum/week-16-accessibility-inclusive-engineering/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-16-accessibility-inclusive-engineering/mini-project/README.md", "title": "Mini-Project — Notes v1: accessible edition"},
+    {"path": "curriculum/week-16-accessibility-inclusive-engineering/quiz.md", "title": "Week 16 — Quiz"},
+    {"path": "curriculum/week-16-accessibility-inclusive-engineering/resources.md", "title": "Week 16 — Resources"},
+    {"path": "curriculum/week-17-security-cryptokit-secure-enclave/._README.md", "title": ". README"},
+    {"path": "curriculum/week-17-security-cryptokit-secure-enclave/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-17-security-cryptokit-secure-enclave/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-17-security-cryptokit-secure-enclave/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-17-security-cryptokit-secure-enclave/README.md", "title": "Week 17 — Security, App Transport Security, CryptoKit, Secure Enclave"},
+    {"path": "curriculum/week-17-security-cryptokit-secure-enclave/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-17-security-cryptokit-secure-enclave/challenges/._challenge-01-mitm-then-pin.md", "title": ". challenge 01 mitm then pin"},
+    {"path": "curriculum/week-17-security-cryptokit-secure-enclave/challenges/README.md", "title": "Week 17 — Challenges"},
+    {"path": "curriculum/week-17-security-cryptokit-secure-enclave/challenges/challenge-01-mitm-then-pin.md", "title": "Challenge 1 — MITM your own app, then pin it shut (with evidence)"},
+    {"path": "curriculum/week-17-security-cryptokit-secure-enclave/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-17-security-cryptokit-secure-enclave/exercises/._exercise-01-pin-a-certificate.md", "title": ". exercise 01 pin a certificate"},
+    {"path": "curriculum/week-17-security-cryptokit-secure-enclave/exercises/README.md", "title": "Week 17 — Exercises"},
+    {"path": "curriculum/week-17-security-cryptokit-secure-enclave/exercises/exercise-01-pin-a-certificate.md", "title": "Exercise 1 — Pin a certificate (and prove it rejects a wrong one)"},
+    {"path": "curriculum/week-17-security-cryptokit-secure-enclave/homework.md", "title": "Week 17 Homework"},
+    {"path": "curriculum/week-17-security-cryptokit-secure-enclave/lecture-notes/._01-ats-pinning-and-the-threat-model.md", "title": ". 01 ats pinning and the threat model"},
+    {"path": "curriculum/week-17-security-cryptokit-secure-enclave/lecture-notes/._02-cryptokit-secure-enclave-and-request-signing.md", "title": ". 02 cryptokit secure enclave and request signing"},
+    {"path": "curriculum/week-17-security-cryptokit-secure-enclave/lecture-notes/01-ats-pinning-and-the-threat-model.md", "title": "Lecture 1 — The threat model first, then App Transport Security and pinning"},
+    {"path": "curriculum/week-17-security-cryptokit-secure-enclave/lecture-notes/02-cryptokit-secure-enclave-and-request-signing.md", "title": "Lecture 2 — CryptoKit, the Secure Enclave, and request signing end to end"},
+    {"path": "curriculum/week-17-security-cryptokit-secure-enclave/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-17-security-cryptokit-secure-enclave/mini-project/README.md", "title": "Mini-Project — Harden the NotesClient: pinning + Secure Enclave request signing"},
+    {"path": "curriculum/week-17-security-cryptokit-secure-enclave/quiz.md", "title": "Week 17 — Quiz"},
+    {"path": "curriculum/week-17-security-cryptokit-secure-enclave/resources.md", "title": "Week 17 — Resources"},
+    {"path": "curriculum/week-18-push-storekit-metrickit/._README.md", "title": ". README"},
+    {"path": "curriculum/week-18-push-storekit-metrickit/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-18-push-storekit-metrickit/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-18-push-storekit-metrickit/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-18-push-storekit-metrickit/README.md", "title": "Week 18 — Push notifications, StoreKit 2, MetricKit telemetry"},
+    {"path": "curriculum/week-18-push-storekit-metrickit/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-18-push-storekit-metrickit/challenges/._challenge-01-subscription-edge-cases.md", "title": ". challenge 01 subscription edge cases"},
+    {"path": "curriculum/week-18-push-storekit-metrickit/challenges/README.md", "title": "Week 18 — Challenges"},
+    {"path": "curriculum/week-18-push-storekit-metrickit/challenges/challenge-01-subscription-edge-cases.md", "title": "Challenge 1 — The subscription edge cases: refund, downgrade, billing retry (with evidence)"},
+    {"path": "curriculum/week-18-push-storekit-metrickit/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-18-push-storekit-metrickit/exercises/._exercise-01-register-and-receive-a-push.md", "title": ". exercise 01 register and receive a push"},
+    {"path": "curriculum/week-18-push-storekit-metrickit/exercises/README.md", "title": "Week 18 — Exercises"},
+    {"path": "curriculum/week-18-push-storekit-metrickit/exercises/exercise-01-register-and-receive-a-push.md", "title": "Exercise 1 — Register for and receive a real push"},
+    {"path": "curriculum/week-18-push-storekit-metrickit/homework.md", "title": "Week 18 Homework"},
+    {"path": "curriculum/week-18-push-storekit-metrickit/lecture-notes/._01-apns-and-the-notification-service-extension.md", "title": ". 01 apns and the notification service extension"},
+    {"path": "curriculum/week-18-push-storekit-metrickit/lecture-notes/._02-storekit2-server-validation-and-metrickit.md", "title": ". 02 storekit2 server validation and metrickit"},
+    {"path": "curriculum/week-18-push-storekit-metrickit/lecture-notes/01-apns-and-the-notification-service-extension.md", "title": "Lecture 1 — The push pipeline end to end: APNs, payloads, and the Notification Service Extension"},
+    {"path": "curriculum/week-18-push-storekit-metrickit/lecture-notes/02-storekit2-server-validation-and-metrickit.md", "title": "Lecture 2 — StoreKit 2, server-side validation, the subscription edge cases, and MetricKit"},
+    {"path": "curriculum/week-18-push-storekit-metrickit/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-18-push-storekit-metrickit/mini-project/README.md", "title": "Mini-Project — Notes Pro v1 (Phase III Integration Project)"},
+    {"path": "curriculum/week-18-push-storekit-metrickit/quiz.md", "title": "Week 18 — Quiz"},
+    {"path": "curriculum/week-18-push-storekit-metrickit/resources.md", "title": "Week 18 — Resources"},
+    {"path": "curriculum/week-19-multi-platform-targets/._README.md", "title": ". README"},
+    {"path": "curriculum/week-19-multi-platform-targets/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-19-multi-platform-targets/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-19-multi-platform-targets/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-19-multi-platform-targets/README.md", "title": "Week 19 — Multi-platform: iOS, iPadOS, macOS (Catalyst + native), watchOS, visionOS"},
+    {"path": "curriculum/week-19-multi-platform-targets/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-19-multi-platform-targets/challenges/._challenge-01-watch-complication-and-parity.md", "title": ". challenge 01 watch complication and parity"},
+    {"path": "curriculum/week-19-multi-platform-targets/challenges/README.md", "title": "Week 19 — Challenges"},
+    {"path": "curriculum/week-19-multi-platform-targets/challenges/challenge-01-watch-complication-and-parity.md", "title": "Challenge 1 — A watch complication + a five-platform parity matrix"},
+    {"path": "curriculum/week-19-multi-platform-targets/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-19-multi-platform-targets/exercises/._exercise-01-adaptive-navigation.md", "title": ". exercise 01 adaptive navigation"},
+    {"path": "curriculum/week-19-multi-platform-targets/exercises/README.md", "title": "Week 19 — Exercises"},
+    {"path": "curriculum/week-19-multi-platform-targets/exercises/exercise-01-adaptive-navigation.md", "title": "Exercise 1 — One adaptive navigation, three platforms"},
+    {"path": "curriculum/week-19-multi-platform-targets/homework.md", "title": "Week 19 Homework"},
+    {"path": "curriculum/week-19-multi-platform-targets/lecture-notes/._01-one-codebase-five-platforms.md", "title": ". 01 one codebase five platforms"},
+    {"path": "curriculum/week-19-multi-platform-targets/lecture-notes/._02-watchos-visionos-and-the-shared-core.md", "title": ". 02 watchos visionos and the shared core"},
+    {"path": "curriculum/week-19-multi-platform-targets/lecture-notes/01-one-codebase-five-platforms.md", "title": "Lecture 1 — One codebase, five platforms: the share/adapt line, topology, and adaptive navigation"},
+    {"path": "curriculum/week-19-multi-platform-targets/lecture-notes/02-watchos-visionos-and-the-shared-core.md", "title": "Lecture 2 — watchOS, visionOS, and the shared core that holds it together"},
+    {"path": "curriculum/week-19-multi-platform-targets/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-19-multi-platform-targets/mini-project/README.md", "title": "Mini-Project — Notes Pro v1, on five platforms"},
+    {"path": "curriculum/week-19-multi-platform-targets/quiz.md", "title": "Week 19 — Quiz"},
+    {"path": "curriculum/week-19-multi-platform-targets/resources.md", "title": "Week 19 — Resources"},
+    {"path": "curriculum/week-20-widgets-app-intents-spotlight/._README.md", "title": ". README"},
+    {"path": "curriculum/week-20-widgets-app-intents-spotlight/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-20-widgets-app-intents-spotlight/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-20-widgets-app-intents-spotlight/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-20-widgets-app-intents-spotlight/README.md", "title": "Week 20 — Widgets, App Intents, Shortcuts, Spotlight"},
+    {"path": "curriculum/week-20-widgets-app-intents-spotlight/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-20-widgets-app-intents-spotlight/challenges/._challenge-01-interactive-widget-pin.md", "title": ". challenge 01 interactive widget pin"},
+    {"path": "curriculum/week-20-widgets-app-intents-spotlight/challenges/README.md", "title": "Week 20 — Challenges"},
+    {"path": "curriculum/week-20-widgets-app-intents-spotlight/challenges/challenge-01-interactive-widget-pin.md", "title": "Challenge 1 — An interactive \"pin\" widget (with the round-trip proven)"},
+    {"path": "curriculum/week-20-widgets-app-intents-spotlight/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-20-widgets-app-intents-spotlight/exercises/._exercise-01-first-widget-timeline.md", "title": ". exercise 01 first widget timeline"},
+    {"path": "curriculum/week-20-widgets-app-intents-spotlight/exercises/README.md", "title": "Week 20 — Exercises"},
+    {"path": "curriculum/week-20-widgets-app-intents-spotlight/exercises/exercise-01-first-widget-timeline.md", "title": "Exercise 1 — A first widget on a shared timeline"},
+    {"path": "curriculum/week-20-widgets-app-intents-spotlight/homework.md", "title": "Week 20 Homework"},
+    {"path": "curriculum/week-20-widgets-app-intents-spotlight/lecture-notes/._01-app-intents-the-new-contract.md", "title": ". 01 app intents the new contract"},
+    {"path": "curriculum/week-20-widgets-app-intents-spotlight/lecture-notes/._02-widgetkit-timelines-app-groups-spotlight.md", "title": ". 02 widgetkit timelines app groups spotlight"},
+    {"path": "curriculum/week-20-widgets-app-intents-spotlight/lecture-notes/01-app-intents-the-new-contract.md", "title": "Lecture 1 — App Intents: the new contract between your app and the rest of iOS"},
+    {"path": "curriculum/week-20-widgets-app-intents-spotlight/lecture-notes/02-widgetkit-timelines-app-groups-spotlight.md", "title": "Lecture 2 — WidgetKit timelines, the App Group that feeds them, and Spotlight"},
+    {"path": "curriculum/week-20-widgets-app-intents-spotlight/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-20-widgets-app-intents-spotlight/mini-project/README.md", "title": "Mini-Project — Hello, Notes: surfaced everywhere"},
+    {"path": "curriculum/week-20-widgets-app-intents-spotlight/quiz.md", "title": "Week 20 — Quiz"},
+    {"path": "curriculum/week-20-widgets-app-intents-spotlight/resources.md", "title": "Week 20 — Resources"},
+    {"path": "curriculum/week-21-live-activities-background-processing/._README.md", "title": ". README"},
+    {"path": "curriculum/week-21-live-activities-background-processing/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-21-live-activities-background-processing/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-21-live-activities-background-processing/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-21-live-activities-background-processing/README.md", "title": "Week 21 — Live Activities, ActivityKit, background processing"},
+    {"path": "curriculum/week-21-live-activities-background-processing/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-21-live-activities-background-processing/challenges/._challenge-01-push-to-start-from-vapor.md", "title": ". challenge 01 push to start from vapor"},
+    {"path": "curriculum/week-21-live-activities-background-processing/challenges/README.md", "title": "Week 21 — Challenges"},
+    {"path": "curriculum/week-21-live-activities-background-processing/challenges/challenge-01-push-to-start-from-vapor.md", "title": "Challenge 1 — Push-to-start a Live Activity from Vapor (the full lifecycle over the wire)"},
+    {"path": "curriculum/week-21-live-activities-background-processing/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-21-live-activities-background-processing/exercises/._exercise-01-first-live-activity.md", "title": ". exercise 01 first live activity"},
+    {"path": "curriculum/week-21-live-activities-background-processing/exercises/README.md", "title": "Week 21 — Exercises"},
+    {"path": "curriculum/week-21-live-activities-background-processing/exercises/exercise-01-first-live-activity.md", "title": "Exercise 1 — A first Live Activity, started locally"},
+    {"path": "curriculum/week-21-live-activities-background-processing/homework.md", "title": "Week 21 Homework"},
+    {"path": "curriculum/week-21-live-activities-background-processing/lecture-notes/._01-activitykit-dynamic-island-push.md", "title": ". 01 activitykit dynamic island push"},
+    {"path": "curriculum/week-21-live-activities-background-processing/lecture-notes/._02-background-tasks-low-power-and-the-budget.md", "title": ". 02 background tasks low power and the budget"},
+    {"path": "curriculum/week-21-live-activities-background-processing/lecture-notes/01-activitykit-dynamic-island-push.md", "title": "Lecture 1 — Live Activities, the Dynamic Island, and the push that drives them"},
+    {"path": "curriculum/week-21-live-activities-background-processing/lecture-notes/02-background-tasks-low-power-and-the-budget.md", "title": "Lecture 2 — BackgroundTasks, Low Power Mode, and the budget that governs everything"},
+    {"path": "curriculum/week-21-live-activities-background-processing/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-21-live-activities-background-processing/mini-project/README.md", "title": "Mini-Project — The \"shared-note edit in progress\" Live Activity"},
+    {"path": "curriculum/week-21-live-activities-background-processing/quiz.md", "title": "Week 21 — Quiz"},
+    {"path": "curriculum/week-21-live-activities-background-processing/resources.md", "title": "Week 21 — Resources"},
+    {"path": "curriculum/week-22-testing-ci-fastlane/._README.md", "title": ". README"},
+    {"path": "curriculum/week-22-testing-ci-fastlane/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-22-testing-ci-fastlane/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-22-testing-ci-fastlane/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-22-testing-ci-fastlane/README.md", "title": "Week 22 — Testing at scale, CI on GitHub Actions, fastlane"},
+    {"path": "curriculum/week-22-testing-ci-fastlane/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-22-testing-ci-fastlane/challenges/._challenge-01-match-and-testflight.md", "title": ". challenge 01 match and testflight"},
+    {"path": "curriculum/week-22-testing-ci-fastlane/challenges/README.md", "title": "Week 22 — Challenges"},
+    {"path": "curriculum/week-22-testing-ci-fastlane/challenges/challenge-01-match-and-testflight.md", "title": "Challenge 1 — `match` + TestFlight from `main` (commit to build, untouched)"},
+    {"path": "curriculum/week-22-testing-ci-fastlane/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-22-testing-ci-fastlane/exercises/._exercise-03-github-actions-pr-workflow.md", "title": ". exercise 03 github actions pr workflow"},
+    {"path": "curriculum/week-22-testing-ci-fastlane/exercises/README.md", "title": "Week 22 — Exercises"},
+    {"path": "curriculum/week-22-testing-ci-fastlane/exercises/exercise-03-github-actions-pr-workflow.md", "title": "Exercise 3 — A GitHub Actions PR workflow that gates the merge"},
+    {"path": "curriculum/week-22-testing-ci-fastlane/homework.md", "title": "Week 22 Homework"},
+    {"path": "curriculum/week-22-testing-ci-fastlane/lecture-notes/._01-swift-testing-xcuitest-snapshot.md", "title": ". 01 swift testing xcuitest snapshot"},
+    {"path": "curriculum/week-22-testing-ci-fastlane/lecture-notes/._02-github-actions-fastlane-testflight.md", "title": ". 02 github actions fastlane testflight"},
+    {"path": "curriculum/week-22-testing-ci-fastlane/lecture-notes/01-swift-testing-xcuitest-snapshot.md", "title": "Lecture 1 — Testing at scale: Swift Testing, XCUITest, and snapshots"},
+    {"path": "curriculum/week-22-testing-ci-fastlane/lecture-notes/02-github-actions-fastlane-testflight.md", "title": "Lecture 2 — The pipeline: GitHub Actions, fastlane, and TestFlight"},
+    {"path": "curriculum/week-22-testing-ci-fastlane/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-22-testing-ci-fastlane/mini-project/README.md", "title": "Mini-Project — The full pipeline: PR gates, `main` ships to TestFlight"},
+    {"path": "curriculum/week-22-testing-ci-fastlane/quiz.md", "title": "Week 22 — Quiz"},
+    {"path": "curriculum/week-22-testing-ci-fastlane/resources.md", "title": "Week 22 — Resources"},
+    {"path": "curriculum/week-23-capstone-build-sprint/._README.md", "title": ". README"},
+    {"path": "curriculum/week-23-capstone-build-sprint/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-23-capstone-build-sprint/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-23-capstone-build-sprint/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-23-capstone-build-sprint/README.md", "title": "Week 23 — Capstone Build Sprint"},
+    {"path": "curriculum/week-23-capstone-build-sprint/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-23-capstone-build-sprint/challenges/._challenge-01-architecture-review-sign-off.md", "title": ". challenge 01 architecture review sign off"},
+    {"path": "curriculum/week-23-capstone-build-sprint/challenges/README.md", "title": "Week 23 — Challenges"},
+    {"path": "curriculum/week-23-capstone-build-sprint/challenges/challenge-01-architecture-review-sign-off.md", "title": "Challenge 1 — The architecture-review sign-off"},
+    {"path": "curriculum/week-23-capstone-build-sprint/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-23-capstone-build-sprint/exercises/._exercise-01-trace-one-write-end-to-end.md", "title": ". exercise 01 trace one write end to end"},
+    {"path": "curriculum/week-23-capstone-build-sprint/exercises/README.md", "title": "Week 23 — Exercises"},
+    {"path": "curriculum/week-23-capstone-build-sprint/exercises/exercise-01-trace-one-write-end-to-end.md", "title": "Exercise 1 — Trace one write end to end"},
+    {"path": "curriculum/week-23-capstone-build-sprint/homework.md", "title": "Week 23 Homework"},
+    {"path": "curriculum/week-23-capstone-build-sprint/lecture-notes/._01-integrating-the-capstone-and-the-architecture-review.md", "title": ". 01 integrating the capstone and the architecture review"},
+    {"path": "curriculum/week-23-capstone-build-sprint/lecture-notes/._02-adrs-the-production-runbook-and-the-release-candidate.md", "title": ". 02 adrs the production runbook and the release candidate"},
+    {"path": "curriculum/week-23-capstone-build-sprint/lecture-notes/01-integrating-the-capstone-and-the-architecture-review.md", "title": "Lecture 1 — Integrating the Capstone and Running the Architecture Review"},
+    {"path": "curriculum/week-23-capstone-build-sprint/lecture-notes/02-adrs-the-production-runbook-and-the-release-candidate.md", "title": "Lecture 2 — ADRs, the Production Runbook, and the Release Candidate"},
+    {"path": "curriculum/week-23-capstone-build-sprint/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-23-capstone-build-sprint/mini-project/README.md", "title": "Mini-Project — The Capstone Build Sprint"},
+    {"path": "curriculum/week-23-capstone-build-sprint/quiz.md", "title": "Week 23 — Quiz"},
+    {"path": "curriculum/week-23-capstone-build-sprint/resources.md", "title": "Week 23 — Resources"},
+    {"path": "curriculum/week-24-testflight-app-review-chaos-drill/._README.md", "title": ". README"},
+    {"path": "curriculum/week-24-testflight-app-review-chaos-drill/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-24-testflight-app-review-chaos-drill/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-24-testflight-app-review-chaos-drill/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-24-testflight-app-review-chaos-drill/README.md", "title": "Week 24 — TestFlight, App Review, Chaos Drill, Demo Day"},
+    {"path": "curriculum/week-24-testflight-app-review-chaos-drill/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-24-testflight-app-review-chaos-drill/challenges/._challenge-01-ship-survive-and-present.md", "title": ". challenge 01 ship survive and present"},
+    {"path": "curriculum/week-24-testflight-app-review-chaos-drill/challenges/README.md", "title": "Week 24 — Challenges"},
+    {"path": "curriculum/week-24-testflight-app-review-chaos-drill/challenges/challenge-01-ship-survive-and-present.md", "title": "Challenge 1 — Ship, survive, and present"},
+    {"path": "curriculum/week-24-testflight-app-review-chaos-drill/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-24-testflight-app-review-chaos-drill/exercises/._exercise-01-app-review-readiness-audit.md", "title": ". exercise 01 app review readiness audit"},
+    {"path": "curriculum/week-24-testflight-app-review-chaos-drill/exercises/README.md", "title": "Week 24 — Exercises"},
+    {"path": "curriculum/week-24-testflight-app-review-chaos-drill/exercises/exercise-01-app-review-readiness-audit.md", "title": "Exercise 1 — The App Review readiness audit"},
+    {"path": "curriculum/week-24-testflight-app-review-chaos-drill/homework.md", "title": "Week 24 Homework"},
+    {"path": "curriculum/week-24-testflight-app-review-chaos-drill/lecture-notes/._01-app-review-and-shipping-to-testflight.md", "title": ". 01 app review and shipping to testflight"},
+    {"path": "curriculum/week-24-testflight-app-review-chaos-drill/lecture-notes/._02-the-chaos-drill-the-postmortem-and-demo-day.md", "title": ". 02 the chaos drill the postmortem and demo day"},
+    {"path": "curriculum/week-24-testflight-app-review-chaos-drill/lecture-notes/01-app-review-and-shipping-to-testflight.md", "title": "Lecture 1 — App Review and Shipping to TestFlight"},
+    {"path": "curriculum/week-24-testflight-app-review-chaos-drill/lecture-notes/02-the-chaos-drill-the-postmortem-and-demo-day.md", "title": "Lecture 2 — The Chaos Drill, the Postmortem, and Demo Day"},
+    {"path": "curriculum/week-24-testflight-app-review-chaos-drill/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-24-testflight-app-review-chaos-drill/mini-project/README.md", "title": "Mini-Project — The Capstone Delivery: Ship, Survive, Present"},
+    {"path": "curriculum/week-24-testflight-app-review-chaos-drill/quiz.md", "title": "Week 24 — Quiz"},
+    {"path": "curriculum/week-24-testflight-app-review-chaos-drill/resources.md", "title": "Week 24 — Resources"}
   ]
 }
